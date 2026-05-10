@@ -426,11 +426,36 @@ body {
 /* —— 游戏 —— */
 .game-top {
   display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 0.65rem;
+  font-size: 0.95rem;
+  color: #d1d5db;
+}
+
+.btn-game-back {
+  flex-shrink: 0;
+  margin: 0;
+  padding: 0.35rem 0.55rem;
+  border: none;
+  border-radius: 10px;
+  background: #374151;
+  font-size: 1.25rem;
+  line-height: 1;
+  cursor: pointer;
+  color: inherit;
+}
+
+.btn-game-back:active {
+  opacity: 0.88;
+}
+
+.game-top-right {
+  display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 0.35rem;
-  font-size: 0.95rem;
-  color: #d1d5db;
+  min-width: 0;
 }
 
 .game-diff {

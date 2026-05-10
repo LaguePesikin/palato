@@ -371,8 +371,11 @@ function mountPlayingUI() {
   app.innerHTML = `
     <div class="game-root" id="game-root">
       <div class="game-top">
-        <span id="game-progress">第 1 / ${state.questions.length} 题</span>
-        <span class="game-diff" id="game-diff-label">难度：${diffText}</span>
+        <button type="button" class="btn-game-back" id="btn-game-home" aria-label="返回首页">⬅️</button>
+        <div class="game-top-right">
+          <span id="game-progress">第 1 / ${state.questions.length} 题</span>
+          <span class="game-diff" id="game-diff-label">难度：${diffText}</span>
+        </div>
       </div>
       <div class="game-title">哪张照片是真实拍摄的？</div>
       <div class="game-hint">点击图片可放大查看</div>
@@ -429,6 +432,19 @@ function mountPlayingUI() {
   })
 
   btnNext.addEventListener('click', () => goNext())
+
+  document.getElementById('btn-game-home')!.addEventListener('click', () => {
+    if (!confirm('确定返回首页？本局进度将丢失')) return
+    state.phase = 'landing'
+    state.questions = []
+    state.currentIndex = 0
+    state.selectedChoice = null
+    state.correctCount = 0
+    state.previewSrc = null
+    gameDom = null
+    teardownGame()
+    render()
+  })
 }
 
 function updateSelectionOnly() {
