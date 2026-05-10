@@ -1,18 +1,30 @@
 import './style.css'
-import { buildQuestionRound, type Question } from './questionRound'
+import { buildQuestionRound, type Question, type GameDifficulty } from './questionRound'
 import { drawPoster, type PosterPayload } from './poster'
 import { generateRandomNick } from './randomNick'
 
-type Phase = 'landing' | 'loading' | 'playing' | 'poster'
+type Phase = 'landing' | 'tech' | 'loading' | 'playing' | 'poster'
 
 const app = document.querySelector<HTMLDivElement>('#app')!
 
 const POSTER_W = 375
 const POSTER_H = 720
 
+const WECHAT_ID = 'TheKinginYellow09'
+const FEISHU_INVITE =
+  'https://www.feishu.cn/invitation/page/add_contact/?token=e97s5235-d72a-4561-a4e1-525fe84d5cee'
+
+const DIFF_LABEL: Record<GameDifficulty, string> = {
+  easy: '简单',
+  medium: '中等',
+  hard: '困难',
+  hell: '地狱',
+}
+
 const state: {
   phase: Phase
   nickName: string
+  difficulty: GameDifficulty
   questions: Question[]
   currentIndex: number
   selectedChoice: number | null
@@ -23,6 +35,7 @@ const state: {
 } = {
   phase: 'landing',
   nickName: '',
+  difficulty: 'hard',
   questions: [],
   currentIndex: 0,
   selectedChoice: null,
@@ -32,9 +45,9 @@ const state: {
   posterPayload: null,
 }
 
-/** 游戏 DOM 只挂载一次，避免整页 innerHTML 导致图片反复卸载/闪烁 */
 let gameDom: {
   progressEl: HTMLElement
+  diffEl: HTMLElement | null
   imgs: HTMLImageElement[]
   frames: HTMLElement[]
   choices: HTMLButtonElement[]
@@ -44,8 +57,10 @@ let gameDom: {
 let previewLayer: HTMLDivElement | null = null
 
 function explain(err: string): string {
-  if (err === 'TRUE_POOL_SMALL') return 'true 图数量不足：至少需要 true-1～true-10 放在 images 目录。'
-  if (err === 'FALSE_POOL_EMPTY') return '未找到 false 图：请将 false-x.jpeg 放入 images 目录。'
+  if (err === 'TRUE_POOL_SMALL') {
+    return '图库数量不足当前难度：请增加 public/images 下的图，或配置 VITE_IMAGE_CDN_BASE 指向更大图库。'
+  }
+  if (err === 'FALSE_POOL_EMPTY') return '未找到 false 图。'
   if (err === 'FALSE_POOL_SMALL') return 'false 图数量不足。'
   return '题目加载失败。'
 }
@@ -138,6 +153,11 @@ function openPreview(src: string) {
 }
 
 function render() {
+  if (state.phase === 'tech') {
+    teardownGame()
+    renderTechPage()
+    return
+  }
   if (state.phase === 'landing') {
     teardownGame()
     renderLanding()
@@ -152,11 +172,58 @@ function render() {
     renderPosterView()
     return
   }
-  // playing — 首帧由 preload 结束时 mountPlayingUI 负责
   if (!gameDom) {
     mountPlayingUI()
   }
   updatePlayingUI()
+}
+
+function renderTechPage() {
+  removePreviewLayer()
+  app.innerHTML = `
+    <div class="tech-page">
+      <button type="button" class="btn-back-tech" id="btn-tech-back">← 返回首页</button>
+      <h1 class="tech-title">技术说明</h1>
+      <p class="tech-placeholder">这里将补充「模型生成图片」相关的技术细节与文章。</p>
+      <p class="tech-hint">内容建设中，敬请期待。</p>
+    </div>
+  `
+  document.getElementById('btn-tech-back')!.onclick = () => {
+    state.phase = 'landing'
+    render()
+  }
+}
+
+function bindContactModal() {
+  const overlay = document.getElementById('contact-overlay')
+  if (!overlay) return
+  const close = () => overlay.classList.add('hidden')
+  document.getElementById('contact-panel-inner')?.addEventListener('click', (e) => {
+    e.stopPropagation()
+  })
+  overlay.addEventListener('click', () => {
+    close()
+  })
+  document.getElementById('btn-contact-close')?.addEventListener('click', close)
+  document.getElementById('btn-open-contact')?.addEventListener('click', () => {
+    overlay.classList.remove('hidden')
+  })
+  document.getElementById('copy-wechat')?.addEventListener('click', async () => {
+    try {
+      await navigator.clipboard.writeText(WECHAT_ID)
+      alert('已复制微信号')
+    } catch {
+      prompt('请手动复制微信号：', WECHAT_ID)
+    }
+  })
+  document.getElementById('copy-feishu')?.addEventListener('click', async () => {
+    try {
+      await navigator.clipboard.writeText(FEISHU_INVITE)
+      alert('已复制飞书邀请链接')
+    } catch {
+      prompt('请手动复制链接：', FEISHU_INVITE)
+    }
+  })
 }
 
 function renderLanding() {
@@ -177,15 +244,37 @@ function renderLanding() {
         <button type="button" class="dice-btn" id="btn-dice-nick" title="随机昵称">🎲</button>
       </div>
       <div class="rules">
-        <p>总共 <strong>10</strong> 题，每题四张照片，其中仅有一张是真实拍摄</p>
-        <p>其余三张为 AI 生成的</p>
-        <p>你的目标是找出唯一真实的那张</p>
-        <p>答题不限时；结束后生成正确率和耗时结果</p>
-        <p>欢迎分享链接给朋友们一起玩</p>
+        <p>每题四张照片，仅一张为真实拍摄；题量随难度变化（简单 5 题 / 中等 8 题 / 困难与地狱各 10 题）。</p>
+        <p>点击难度后开始预加载本局全部图片，加载完成才计时。</p>
       </div>
-      <button type="button" class="btn-primary" id="btn-start">开始挑战</button>
+      <div class="diff-wrap">
+        <button type="button" class="diff-btn diff-easy" data-difficulty="easy">难度：简单 😆</button>
+        <button type="button" class="diff-btn diff-medium" data-difficulty="medium">难度：中等 🤨</button>
+        <button type="button" class="diff-btn diff-hard" data-difficulty="hard">难度：困难 🤯</button>
+        <button type="button" class="diff-btn diff-hell" data-difficulty="hell">难度：地狱 😈</button>
+      </div>
+      <div class="footer-links">
+        <a class="footer-link" href="#" id="link-tech">如果你想了解关于模型生成图片的技术细节……</a>
+        <button type="button" class="footer-link footer-link-btn" id="btn-open-contact">欢迎联系我，探索更多好玩的 AI</button>
+      </div>
+    </div>
+    <div class="contact-overlay hidden" id="contact-overlay">
+      <div class="contact-panel" id="contact-panel-inner">
+        <div class="contact-title">联系我</div>
+        <button type="button" class="contact-row contact-row-btn" id="copy-wechat">
+          <span class="contact-label">微信：</span>
+          <span class="contact-value">${WECHAT_ID}</span>
+          <span class="contact-tip">（点击复制）</span>
+        </button>
+        <button type="button" class="contact-row contact-row-btn" id="copy-feishu">
+          <span class="contact-label">飞书：</span>
+          <span class="contact-feishu">点击这里复制邀请链接</span>
+        </button>
+        <button type="button" class="contact-close" id="btn-contact-close">关闭</button>
+      </div>
     </div>
   `
+
   const input = document.getElementById('nick-input') as HTMLInputElement
   input.value = state.nickName
   input.addEventListener('input', () => {
@@ -198,26 +287,42 @@ function renderLanding() {
     input.value = nick
   }
 
-  document.getElementById('btn-start')!.onclick = () => {
-    const nick = (input.value || '').trim()
-    if (!nick) {
-      alert('请先输入昵称')
-      return
-    }
-    state.nickName = nick
-    const round = buildQuestionRound()
-    if (!round.ok) {
-      alert(explain(round.error))
-      return
-    }
-    state.questions = round.questions
-    state.currentIndex = 0
-    state.selectedChoice = null
-    state.correctCount = 0
-    state.previewSrc = null
-    state.phase = 'loading'
+  document.querySelectorAll('.diff-btn').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const d = (btn as HTMLElement).dataset.difficulty as GameDifficulty
+      startWithDifficulty(d)
+    })
+  })
+
+  document.getElementById('link-tech')!.addEventListener('click', (e) => {
+    e.preventDefault()
+    state.phase = 'tech'
     render()
+  })
+
+  bindContactModal()
+}
+
+function startWithDifficulty(difficulty: GameDifficulty) {
+  const nick = (document.getElementById('nick-input') as HTMLInputElement)?.value?.trim() || state.nickName
+  if (!nick) {
+    alert('请先输入昵称')
+    return
   }
+  state.nickName = nick
+  state.difficulty = difficulty
+  const round = buildQuestionRound(undefined, { difficulty })
+  if (!round.ok) {
+    alert(explain(round.error))
+    return
+  }
+  state.questions = round.questions
+  state.currentIndex = 0
+  state.selectedChoice = null
+  state.correctCount = 0
+  state.previewSrc = null
+  state.phase = 'loading'
+  render()
 }
 
 function renderLoading() {
@@ -225,15 +330,16 @@ function renderLoading() {
   const total = urls.length
   app.innerHTML = `
     <div class="loading-screen">
-      
+      <h2 class="loading-title">正在加载本局题目</h2>
+      <p class="loading-desc">
+        预先加载本局全部图片（共 <strong>${total}</strong> 张，去重后），完成后才会开始计时。
+      </p>
       <div class="loading-bar-outer">
         <div class="loading-bar-inner" id="load-bar-inner" style="width: 0%"></div>
       </div>
-      
+      <p class="loading-count" id="load-count">0 / ${total}</p>
     </div>
   `
-  // <h2 class="loading-title">正在加载题目，请做好准备 👀</h2>
-  // <p class="loading-count" id="load-count">0 / ${total}</p>
 
   const bar = () => document.getElementById('load-bar-inner')
   const cnt = () => document.getElementById('load-count')
@@ -241,10 +347,10 @@ function renderLoading() {
   preloadImages(urls, (done, t) => {
     const b = bar()
     const c = cnt()
-    if (!b || !c) return
+    if (!b) return
     const pct = t === 0 ? 100 : Math.min(100, Math.round((done / t) * 100))
     b.style.width = `${pct}%`
-    c.textContent = `${done} / ${t}`
+    if (c) c.textContent = `${done} / ${t}`
   })
     .then(() => {
       state.startTime = Date.now()
@@ -267,10 +373,12 @@ function currentQuestion(): Question {
 
 function mountPlayingUI() {
   removePreviewLayer()
+  const diffText = DIFF_LABEL[state.difficulty] || '困难'
   app.innerHTML = `
     <div class="game-root" id="game-root">
       <div class="game-top">
-        <span id="game-progress">第 1 / 10 题</span>
+        <span id="game-progress">第 1 / ${state.questions.length} 题</span>
+        <span class="game-diff" id="game-diff-label">难度：${diffText}</span>
       </div>
       <div class="game-title">哪张照片是真实拍摄的？</div>
       <div class="game-hint">点击图片可放大查看</div>
@@ -308,8 +416,9 @@ function mountPlayingUI() {
   const choices = [...document.querySelectorAll('[data-choice]')] as HTMLButtonElement[]
   const btnNext = document.getElementById('btn-next') as HTMLButtonElement
   const progressEl = document.getElementById('game-progress') as HTMLElement
+  const diffEl = document.getElementById('game-diff-label')
 
-  gameDom = { progressEl, imgs, frames, choices, btnNext }
+  gameDom = { progressEl, diffEl, imgs, frames, choices, btnNext }
 
   imgs.forEach((img) => {
     img.addEventListener('click', () => {
@@ -345,6 +454,9 @@ function updatePlayingUI() {
   const q = currentQuestion()
   const n = state.questions.length
   gameDom.progressEl.textContent = `第 ${state.currentIndex + 1} / ${n} 题`
+  if (gameDom.diffEl) {
+    gameDom.diffEl.textContent = `难度：${DIFF_LABEL[state.difficulty] || '困难'}`
+  }
 
   gameDom.imgs.forEach((img, i) => {
     const nextSrc = q.images[i]
@@ -377,11 +489,12 @@ function goNext() {
 function finishChallenge() {
   const elapsedMs = Date.now() - state.startTime
   const elapsedSec = (elapsedMs / 1000).toFixed(3)
+  const total = state.questions.length
 
   state.posterPayload = {
     nickName: state.nickName || '玩家',
     correctCount: state.correctCount,
-    totalCount: 10,
+    totalCount: total,
     elapsedSec,
   }
   state.phase = 'poster'
