@@ -203,15 +203,29 @@ body {
   margin-top: 0;
 }
 
-.footer-contact-lead {
-  margin: 0.85rem 0 0;
+.footer-contact-inline {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  gap: 0.15rem;
+  margin-top: 0.85rem;
   font-size: 0.88rem;
-  color: #d1d5db;
   line-height: 1.55;
 }
 
-.footer-contact-lead + .footer-link-btn {
-  margin-top: 0.15rem;
+.footer-contact-inline .footer-contact-lead {
+  color: #d1d5db;
+  flex-shrink: 0;
+}
+
+.footer-contact-inline .footer-link {
+  margin-top: 0;
+}
+
+.footer-contact-inline .footer-link-btn {
+  width: auto;
+  flex-shrink: 0;
 }
 
 .footer-link-btn {
