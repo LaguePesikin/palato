@@ -248,13 +248,13 @@ function renderLanding() {
         <button type="button" class="diff-btn diff-hell" data-difficulty="hell">难度: 地狱 😈</button>
       </div>
       <div class="footer-links">
-        <a class="footer-link" href="#" id="link-tech">如果你想了解关于模型生成图片的技术细节……</a>
-        <button type="button" class="footer-link footer-link-btn" id="btn-open-contact">欢迎联系我，探索更多好玩的 AI</button>
+        <a class="footer-link" href="#" id="link-tech">了解更多生图模型的技术细节</a>
+        <button type="button" class="footer-link footer-link-btn" id="btn-open-contact">联系作者</button>
       </div>
     </div>
     <div class="contact-overlay hidden" id="contact-overlay">
       <div class="contact-panel" id="contact-panel-inner">
-        <div class="contact-title">联系我</div>
+        <div class="contact-title">联系作者</div>
         <button type="button" class="contact-row contact-row-btn" id="copy-wechat">
           <span class="contact-label">微信：</span>
           <span class="contact-value">${WECHAT_ID}</span>
