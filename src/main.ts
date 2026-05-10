@@ -267,6 +267,7 @@ function renderLanding() {
         <div class="footer-contact-inline">
           <span class="footer-contact-lead">如果想要接触好玩的开源项目，可以</span>
           <button type="button" class="footer-link footer-link-btn" id="btn-open-contact">联系作者</button>
+          <span class="footer-contact-lead">，请备注来意</span>
         </div>
       </div>
     </div>
