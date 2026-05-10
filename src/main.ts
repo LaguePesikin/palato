@@ -351,14 +351,10 @@ function renderLoading() {
   const total = urls.length
   app.innerHTML = `
     <div class="loading-screen">
-      <h2 class="loading-title">正在加载本局题目</h2>
-      <p class="loading-desc">
-        预先加载本局全部图片（共 <strong>${total}</strong> 张，去重后），完成后才会开始计时。
-      </p>
+      <h2 class="loading-title">加载中</h2>
       <div class="loading-bar-outer">
         <div class="loading-bar-inner" id="load-bar-inner" style="width: 0%"></div>
       </div>
-      <p class="loading-count" id="load-count">0 / ${total}</p>
     </div>
   `
 
