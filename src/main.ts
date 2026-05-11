@@ -3,7 +3,7 @@ import { buildQuestionRound, type Question, type GameDifficulty } from './questi
 import { drawPoster, type PosterPayload } from './poster'
 import { generateRandomNick } from './randomNick'
 
-type Phase = 'landing' | 'tech' | 'loading' | 'playing' | 'poster'
+type Phase = 'landing' | 'loading' | 'playing' | 'poster'
 
 const app = document.querySelector<HTMLDivElement>('#app')!
 
@@ -12,6 +12,8 @@ const POSTER_H = 720
 
 const WECHAT_ID = 'TheKinginYellow09'
 const FEISHU_QR_SRC = `${import.meta.env.BASE_URL}feishu-qrcode.png`
+const FEISHU_WIKI_URL =
+  'https://my.feishu.cn/wiki/MJjvwajV5idenGkixF5cZl5qnic?from=from_copylink'
 
 const DIFF_LABEL: Record<GameDifficulty, string> = {
   easy: '简单',
@@ -152,11 +154,6 @@ function openPreview(src: string) {
 }
 
 function render() {
-  if (state.phase === 'tech') {
-    teardownGame()
-    renderTechPage()
-    return
-  }
   if (state.phase === 'landing') {
     teardownGame()
     renderLanding()
@@ -175,22 +172,6 @@ function render() {
     mountPlayingUI()
   }
   updatePlayingUI()
-}
-
-function renderTechPage() {
-  removePreviewLayer()
-  app.innerHTML = `
-    <div class="tech-page">
-      <button type="button" class="btn-back-tech" id="btn-tech-back">← 返回首页</button>
-      <h1 class="tech-title">技术说明</h1>
-      <p class="tech-placeholder">这里将补充「模型生成图片」相关的技术细节与文章。</p>
-      <p class="tech-hint">内容建设中，敬请期待。</p>
-    </div>
-  `
-  document.getElementById('btn-tech-back')!.onclick = () => {
-    state.phase = 'landing'
-    render()
-  }
 }
 
 function bindDailyChallengeModal() {
@@ -269,7 +250,13 @@ function renderLanding() {
       </div>
       <div class="footer-links">
         <span class="footer-contact-lead">想知道图像生成模型的工作原理？</span>
-        <a class="footer-link" href="#" id="link-tech">点击这里</a>
+        <a
+          class="footer-link"
+          id="link-tech"
+          href="${FEISHU_WIKI_URL}"
+          target="_blank"
+          rel="noopener noreferrer"
+        >点击这里</a>
         <div class="footer-contact-inline">
           <span class="footer-contact-lead">如果想要接触好玩的开源项目，可以</span>
           <button type="button" class="footer-link footer-link-btn" id="btn-open-contact">联系作者</button>
@@ -318,12 +305,6 @@ function renderLanding() {
   })
   document.getElementById('btn-start-game')!.addEventListener('click', () => {
     startWithDifficulty(diffSelect.value as GameDifficulty)
-  })
-
-  document.getElementById('link-tech')!.addEventListener('click', (e) => {
-    e.preventDefault()
-    state.phase = 'tech'
-    render()
   })
 
   bindContactModal()

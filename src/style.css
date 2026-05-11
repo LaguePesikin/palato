@@ -439,40 +439,6 @@ body {
   cursor: pointer;
 }
 
-/* —— 技术占位页 —— */
-.tech-page {
-  padding-top: 0.5rem;
-}
-
-.btn-back-tech {
-  border: none;
-  background: #374151;
-  color: #e5e7eb;
-  padding: 0.5rem 1rem;
-  border-radius: 999px;
-  font-size: 0.9rem;
-  cursor: pointer;
-  margin-bottom: 1.5rem;
-}
-
-.tech-title {
-  font-size: 1.35rem;
-  font-weight: 800;
-  margin: 0 0 1rem;
-}
-
-.tech-placeholder {
-  color: #d1d5db;
-  line-height: 1.65;
-  font-size: 0.95rem;
-}
-
-.tech-hint {
-  margin-top: 1rem;
-  color: #6b7280;
-  font-size: 0.88rem;
-}
-
 /* —— 预加载 —— */
 .loading-screen {
   text-align: center;
