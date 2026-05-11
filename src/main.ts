@@ -265,6 +265,25 @@ function contactOverlayHtml(): string {
   `
 }
 
+/** 按得分比例给评语；全对时不再展示「错题」按钮（题量非 10 时也按比例对齐）。 */
+function scoreComment(correct: number, total: number): { text: string; hideWrongBtn: boolean } {
+  if (total <= 0) return { text: '', hideWrongBtn: false }
+  if (correct === total) {
+    return {
+      text: '天哪😱！神中神！你是怎么做到全对的！',
+      hideWrongBtn: true,
+    }
+  }
+  const pct = correct / total
+  if (pct >= 0.7) {
+    return { text: '🐂🍺！AI已经几乎骗不到你了！', hideWrongBtn: false }
+  }
+  if (pct >= 0.4) {
+    return { text: 'emmmm...貌似还得练...', hideWrongBtn: false }
+  }
+  return { text: '快告诉我你不是瞎蒙的！', hideWrongBtn: false }
+}
+
 function renderWrongListHtml(wrong: AnswerRecord[]): string {
   if (wrong.length === 0) {
     return '<p class="wrong-empty">本轮没有错题，真棒！</p>'
@@ -584,17 +603,26 @@ function finishChallenge() {
 function renderResultView() {
   const data = state.resultPayload!
   const wrongHtml = renderWrongListHtml(data.wrongQuestions)
+  const comment = scoreComment(data.correctCount, data.totalCount)
+  const wrongBtnHtml = comment.hideWrongBtn
+    ? ''
+    : `<button type="button" class="btn-result-secondary" id="btn-review-wrong">看看我错哪儿了？😦</button>`
 
   app.innerHTML = `
     <div class="result-page">
-      <h2 class="result-title">你的最终成绩…</h2>
+      <h2 class="result-title">最终成绩 🤔</h2>
       <p class="result-nick">${data.nickName}<span class="result-nick-label">（昵称）</span></p>
       <p class="result-line">正确率：<strong>${data.correctCount}/${data.totalCount}</strong></p>
       <p class="result-line">总耗时：<strong>${data.elapsedSec}</strong> 秒</p>
+      ${
+        comment.text
+          ? `<p class="result-comment">${comment.text}</p>`
+          : ''
+      }
       <div class="result-actions">
-        <button type="button" class="btn-result-secondary" id="btn-review-wrong">查看错题</button>
-        <button type="button" class="btn-result-secondary" id="btn-copy-site-url">复制本网站链接</button>
-        <button type="button" class="btn-result-primary" id="btn-result-home">回到首页</button>
+        ${wrongBtnHtml}
+        <button type="button" class="btn-result-secondary" id="btn-copy-site-url">复制链接，可分享给朋友玩~ 😎</button>
+        <button type="button" class="btn-result-primary" id="btn-result-home">回到首页 👈</button>
       </div>
       ${footerLinksHtml()}
     </div>
@@ -610,7 +638,7 @@ function renderResultView() {
 
   const wrongOverlay = document.getElementById('wrong-overlay')!
   const wrongPanel = document.getElementById('wrong-panel-inner')!
-  document.getElementById('btn-review-wrong')!.addEventListener('click', () => {
+  document.getElementById('btn-review-wrong')?.addEventListener('click', () => {
     wrongOverlay.classList.remove('hidden')
   })
   document.getElementById('btn-wrong-close')!.addEventListener('click', () => {
