@@ -1,8 +1,14 @@
 /**
- * 网页版题目图：默认 public/images/true-n.jpeg、false-n.jpeg
- * 可选环境变量 VITE_IMAGE_CDN_BASE（如 COS/CDN 根路径，以 / 结尾），便于国内加速、不把大图放 GitHub。
+ * 网页版题目图：
+ * - 默认本地：public/images/true-n.jpeg、false-n.jpeg
+ * - 腾讯云 COS：配置 VITE_COS_BUCKET + VITE_COS_REGION，拼接
+ *   https://{bucket}.cos.{region}.myqcloud.com/{难度目录}/true-n.{ext}
+ * - 或自定义根 URL：VITE_IMAGE_CDN_BASE（不含难度目录，脚本会追加 easy|medium|hard|extreme）
  *
- * 难度题量与小程序一致：easy 5 / medium 8 / hard、hell 各 10（hell 多 shuffle 一次）。
+ * 远程扩展名默认 png（与 COS 资源一致），可用 VITE_GAME_IMAGE_EXT 覆盖。
+ * hell 难度对应存储目录名 extreme（与 assets 目录一致）。
+ *
+ * 难度题量：easy 5 / medium 8 / hard、hell 各 10（hell 多 shuffle 一次）。
  */
 
 export type Question = {
@@ -50,14 +56,43 @@ function sampleWithReplacement(maxIndex: number, count: number): number[] {
   return out
 }
 
-function imageUrl(prefix: string, kind: 'true' | 'false', index: number): string {
-  return `${prefix}${kind}-${index}.jpeg`
+function imageUrl(prefix: string, kind: 'true' | 'false', index: number, ext: string): string {
+  return `${prefix}${kind}-${index}.${ext}`
 }
 
-function imagesPrefix(): string {
-  const cdn = (import.meta.env.VITE_IMAGE_CDN_BASE as string | undefined)?.trim()
-  if (cdn) {
-    return cdn.endsWith('/') ? cdn : `${cdn}/`
+/** hell 在 COS 上与文件夹 extreme 对应 */
+function difficultyFolder(difficulty: GameDifficulty): string {
+  if (difficulty === 'hell') {
+    const folder = (import.meta.env.VITE_COS_HELL_FOLDER as string | undefined)?.trim()
+    return folder || 'extreme'
+  }
+  return difficulty
+}
+
+function remoteStorageRoot(): string | null {
+  const explicit = (import.meta.env.VITE_IMAGE_CDN_BASE as string | undefined)?.trim()
+  if (explicit) {
+    return explicit.replace(/\/+$/, '')
+  }
+  const bucket = (import.meta.env.VITE_COS_BUCKET as string | undefined)?.trim()
+  const region = (import.meta.env.VITE_COS_REGION as string | undefined)?.trim()
+  if (bucket && region) {
+    return `https://${bucket}.cos.${region}.myqcloud.com`
+  }
+  return null
+}
+
+function imageExtension(remote: boolean): string {
+  if (!remote) return 'jpeg'
+  const raw = ((import.meta.env.VITE_GAME_IMAGE_EXT as string | undefined) || 'png').trim()
+  return raw.replace(/^\./, '')
+}
+
+function imagesPrefix(difficulty: GameDifficulty): string {
+  const remoteRoot = remoteStorageRoot()
+  if (remoteRoot) {
+    const dir = difficultyFolder(difficulty)
+    return `${remoteRoot}/${dir}/`
   }
   const base = import.meta.env.BASE_URL || '/'
   return base.endsWith('/') ? `${base}images/` : `${base}/images/`
@@ -70,7 +105,9 @@ export function buildQuestionRound(
   const difficulty: GameDifficulty = options?.difficulty ?? 'hard'
   const n = QUESTIONS_PER_ROUND[difficulty] ?? 10
 
-  const prefix = imagesPrefix()
+  const remote = remoteStorageRoot() !== null
+  const prefix = imagesPrefix(difficulty)
+  const ext = imageExtension(remote)
   const trueMax = config.TRUE_IMAGE_MAX_INDEX
   const falseMax = config.FALSE_IMAGE_MAX_INDEX
 
@@ -99,11 +136,11 @@ export function buildQuestionRound(
   const questions: Question[] = []
 
   for (let q = 0; q < n; q++) {
-    const truePath = imageUrl(prefix, 'true', trueSamples[q])
+    const truePath = imageUrl(prefix, 'true', trueSamples[q], ext)
     const falses = [
-      imageUrl(prefix, 'false', falseSamples[q * 3]),
-      imageUrl(prefix, 'false', falseSamples[q * 3 + 1]),
-      imageUrl(prefix, 'false', falseSamples[q * 3 + 2]),
+      imageUrl(prefix, 'false', falseSamples[q * 3], ext),
+      imageUrl(prefix, 'false', falseSamples[q * 3 + 1], ext),
+      imageUrl(prefix, 'false', falseSamples[q * 3 + 2], ext),
     ]
 
     type Slot = { kind: 't' | 'f'; src: string }

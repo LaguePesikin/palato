@@ -57,7 +57,7 @@ let previewLayer: HTMLDivElement | null = null
 
 function explain(err: string): string {
   if (err === 'TRUE_POOL_SMALL') {
-    return '图库数量不足当前难度：请增加 public/images 下的图，或配置 VITE_IMAGE_CDN_BASE 指向更大图库。'
+    return '图库数量不足当前难度：请增加对应难度的远端（COS）或本地 public/images 资源，或调高题库索引上限。'
   }
   if (err === 'FALSE_POOL_EMPTY') return '未找到 false 图。'
   if (err === 'FALSE_POOL_SMALL') return 'false 图数量不足。'
