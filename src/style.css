@@ -526,6 +526,17 @@ body {
   color: var(--muted);
 }
 
+.result-score {
+  margin: 0.65rem 0 0;
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #fbbf24;
+}
+
+.result-score strong {
+  font-variant-numeric: tabular-nums;
+}
+
 .result-line {
   margin: 0.85rem 0 0;
   font-size: 1rem;

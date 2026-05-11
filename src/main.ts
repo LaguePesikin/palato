@@ -16,7 +16,15 @@ type ResultPayload = {
   correctCount: number
   totalCount: number
   elapsedSec: string
+  /** 得分 = max(0, 答对数×100 − 总耗时秒) */
+  finalScore: number
   wrongQuestions: AnswerRecord[]
+}
+
+/** 每题答对计 100 分，总分减去用时（秒，含小数）；不低于 0。 */
+function computeFinalScore(correctCount: number, elapsedMs: number): number {
+  const raw = correctCount * 100 - elapsedMs / 1000
+  return Math.max(0, raw)
 }
 
 const app = document.querySelector<HTMLDivElement>('#app')!
@@ -328,7 +336,7 @@ function renderLanding() {
         <p>总共 <strong>10</strong> 题，每题四张照片，其中仅有一张是真实拍摄</p>
         <p>其余三张为 AI 生成的</p>
         <p>你的目标是找出唯一真实的那张</p>
-        <p>答题不限时；结束后可生成正确率和耗时结果</p>
+        <p>答题不限时；结束后按照正确率和耗时计分</p>
         <p>欢迎分享链接给朋友们一起玩</p>
         <p>（不同难度的题目，使用不同的生图模型和提示词配置）</p>
       </div>
@@ -588,12 +596,14 @@ function finishChallenge() {
   const elapsedMs = Date.now() - state.startTime
   const elapsedSec = (elapsedMs / 1000).toFixed(3)
   const total = state.questions.length
+  const finalScore = computeFinalScore(state.correctCount, elapsedMs)
 
   state.resultPayload = {
     nickName: state.nickName || '玩家',
     correctCount: state.correctCount,
     totalCount: total,
     elapsedSec,
+    finalScore,
     wrongQuestions: state.answerRecords.filter((r) => !r.isCorrect),
   }
   state.phase = 'result'
@@ -612,6 +622,7 @@ function renderResultView() {
     <div class="result-page">
       <h2 class="result-title">最终成绩 🤔</h2>
       <p class="result-nick">${data.nickName}<span class="result-nick-label">（昵称）</span></p>
+      <p class="result-score">得分：<strong>${data.finalScore.toFixed(2)}</strong></p>
       <p class="result-line">正确率：<strong>${data.correctCount}/${data.totalCount}</strong></p>
       <p class="result-line">总耗时：<strong>${data.elapsedSec}</strong> 秒</p>
       ${
