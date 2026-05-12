@@ -334,7 +334,8 @@ function renderLanding() {
   app.innerHTML = `
     <div class="landing">
       <h1>扒拉图 🔍</h1>
-      <p class="sub">通过这个简单测试，来看看你分辨 AI 生成图片的能力</p>
+      <p class="sub">AI 生图越来越真实了？😱</p>
+      <p class="sub">通过这个简单测试，来看看你分辨 AI 图片的能力</p>
       <label class="nick-label" for="nick-input">昵称</label>
       <div class="nick-input-wrap">
         <input
