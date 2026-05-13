@@ -342,6 +342,78 @@ body {
   display: none;
 }
 
+.rank-tip-panel-wide {
+  width: 100%;
+  max-width: 22rem;
+}
+
+.rank-heading {
+  margin-bottom: 0.35rem;
+}
+
+.rank-tip-hint {
+  margin: 0 0 0.65rem;
+  text-align: center;
+  font-size: 0.8rem;
+  line-height: 1.45;
+  color: #9ca3af;
+}
+
+.rank-board-scroll {
+  max-height: min(50vh, 18rem);
+  overflow: auto;
+  margin-bottom: 0.75rem;
+  padding-right: 0.15rem;
+}
+
+.rank-empty {
+  margin: 0;
+  padding: 0.75rem 0.25rem;
+  text-align: center;
+  font-size: 0.88rem;
+  color: #d1d5db;
+}
+
+.rank-row {
+  display: grid;
+  grid-template-columns: 1.75rem 1fr auto auto;
+  gap: 0.35rem 0.5rem;
+  align-items: center;
+  padding: 0.45rem 0.35rem;
+  border-radius: 0.45rem;
+  font-size: 0.85rem;
+  color: #e5e7eb;
+}
+
+.rank-row:nth-child(odd) {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.rank-row-num {
+  font-variant-numeric: tabular-nums;
+  color: #9ca3af;
+  text-align: right;
+}
+
+.rank-row-nick {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.rank-row-score {
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  color: #fbbf24;
+}
+
+.rank-row-sub {
+  font-variant-numeric: tabular-nums;
+  font-size: 0.78rem;
+  color: #9ca3af;
+}
+
 .daily-tip-panel {
   width: 100%;
   max-width: 18rem;

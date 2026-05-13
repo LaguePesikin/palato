@@ -1,6 +1,8 @@
 import './style.css'
 import { buildQuestionRound, type Question, type GameDifficulty } from './questionRound'
 import { generateRandomNick } from './randomNick'
+import { getOrCreatePlayerId } from './playerId'
+import { submitScore, fetchLeaderboard } from './leaderboardApi'
 
 type Phase = 'landing' | 'loading' | 'playing' | 'result'
 
@@ -16,6 +18,8 @@ type ResultPayload = {
   correctCount: number
   totalCount: number
   elapsedSec: string
+  /** 用于服务端校验得分 */
+  elapsedMs: number
   /** 得分 = max(0, 答对数×100 − 总耗时秒) */
   finalScore: number
   wrongQuestions: AnswerRecord[]
@@ -223,18 +227,89 @@ function bindDailyChallengeModal() {
   })
 }
 
-function bindRankBoardModal() {
+function rankOverlayHtml(): string {
+  return `
+    <div class="daily-tip-overlay hidden" id="rank-tip-overlay">
+      <div class="daily-tip-panel rank-tip-panel-wide" id="rank-tip-panel-inner">
+        <p class="daily-tip-text rank-heading">排行榜 🏆</p>
+        <p class="rank-tip-hint" id="rank-tip-hint"></p>
+        <div class="rank-board-scroll" id="rank-board-list"></div>
+        <button type="button" class="daily-tip-close" id="btn-rank-tip-close">关闭</button>
+      </div>
+    </div>
+  `
+}
+
+function escapeHtml(s: string): string {
+  return s
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+}
+
+let rankHandlersBound = false
+function ensureRankBoardHandlers() {
+  if (rankHandlersBound) return
+  rankHandlersBound = true
+  getOrCreatePlayerId()
+  app.addEventListener('click', (e) => {
+    const rankOverlay = document.getElementById('rank-tip-overlay')
+    if (rankOverlay && !rankOverlay.classList.contains('hidden') && e.target === rankOverlay) {
+      rankOverlay.classList.add('hidden')
+      return
+    }
+    const t = e.target as HTMLElement
+    if (t.closest('#btn-rank-tip-close')) {
+      document.getElementById('rank-tip-overlay')?.classList.add('hidden')
+      return
+    }
+    if (t.closest('#btn-rank-board')) {
+      void openRankBoardModal()
+    }
+  })
+}
+
+async function openRankBoardModal() {
   const overlay = document.getElementById('rank-tip-overlay')
-  if (!overlay) return
-  const close = () => overlay.classList.add('hidden')
-  document.getElementById('rank-tip-panel-inner')?.addEventListener('click', (e) => {
-    e.stopPropagation()
-  })
-  overlay.addEventListener('click', close)
-  document.getElementById('btn-rank-tip-close')?.addEventListener('click', close)
-  document.getElementById('btn-rank-board')?.addEventListener('click', () => {
-    overlay.classList.remove('hidden')
-  })
+  const hint = document.getElementById('rank-tip-hint')
+  const list = document.getElementById('rank-board-list')
+  if (!overlay || !hint || !list) return
+
+  const diffSelect = document.getElementById('difficulty-select') as HTMLSelectElement | null
+  const difficulty = (diffSelect?.value || state.difficulty) as GameDifficulty
+
+  overlay.classList.remove('hidden')
+  hint.textContent = '加载中…'
+  list.innerHTML = ''
+
+  const res = await fetchLeaderboard(difficulty, 50)
+  if (!res.ok) {
+    hint.textContent =
+      res.error === 'NOT_CONFIGURED'
+        ? '排行榜尚未开通：部署时需配置 Upstash Redis 环境变量。'
+        : res.message
+    return
+  }
+
+  hint.textContent = `${DIFF_LABEL[difficulty]} · 展示前 ${res.entries.length} 名`
+
+  if (res.entries.length === 0) {
+    list.innerHTML = '<p class="rank-empty">暂无记录，完成一局即有机会上榜～</p>'
+    return
+  }
+
+  list.innerHTML = res.entries
+    .map(
+      (row) => `
+    <div class="rank-row">
+      <span class="rank-row-num">${row.rank}</span>
+      <span class="rank-row-nick">${escapeHtml(row.nickName)}</span>
+      <span class="rank-row-score">${row.finalScore.toFixed(2)}</span>
+      <span class="rank-row-sub">${row.correctCount}/${row.totalCount}</span>
+    </div>`
+    )
+    .join('')
 }
 
 function bindContactModal() {
@@ -394,12 +469,7 @@ function renderLanding() {
         <button type="button" class="daily-tip-close" id="btn-daily-tip-close">好的</button>
       </div>
     </div>
-    <div class="daily-tip-overlay hidden" id="rank-tip-overlay">
-      <div class="daily-tip-panel" id="rank-tip-panel-inner">
-        <p class="daily-tip-text">排行榜暂未开放，请稍等一哈</p>
-        <button type="button" class="daily-tip-close" id="btn-rank-tip-close">好的</button>
-      </div>
-    </div>
+    ${rankOverlayHtml()}
   `
 
   const input = document.getElementById('nick-input') as HTMLInputElement
@@ -424,7 +494,6 @@ function renderLanding() {
 
   bindContactModal()
   bindDailyChallengeModal()
-  bindRankBoardModal()
 }
 
 function startWithDifficulty(difficulty: GameDifficulty) {
@@ -644,11 +713,29 @@ function finishChallenge() {
     correctCount: state.correctCount,
     totalCount: total,
     elapsedSec,
+    elapsedMs,
     finalScore,
     wrongQuestions: state.answerRecords.filter((r) => !r.isCorrect),
   }
   state.phase = 'result'
   render()
+  const payload = state.resultPayload
+  if (payload) void submitRoundScoreAsync(payload)
+}
+
+async function submitRoundScoreAsync(data: ResultPayload) {
+  const r = await submitScore({
+    playerId: getOrCreatePlayerId(),
+    nickName: data.nickName,
+    difficulty: state.difficulty,
+    finalScore: data.finalScore,
+    correctCount: data.correctCount,
+    totalCount: data.totalCount,
+    elapsedMs: data.elapsedMs,
+  })
+  if (!r.ok && r.error !== 'NETWORK') {
+    console.warn('submit score failed', r.error)
+  }
 }
 
 function renderResultView() {
@@ -662,7 +749,7 @@ function renderResultView() {
   app.innerHTML = `
     <div class="result-page">
       <h2 class="result-title">最终成绩 🤔</h2>
-      <p class="result-nick">${data.nickName}<span class="result-nick-label"></span></p>
+      <p class="result-nick">${escapeHtml(data.nickName)}<span class="result-nick-label"></span></p>
       <p class="result-score">得分：<strong>${data.finalScore.toFixed(2)}</strong></p>
       <p class="result-line">正确率：<strong>${data.correctCount}/${data.totalCount}</strong></p>
       <p class="result-line">总耗时：<strong>${data.elapsedSec}</strong> 秒</p>
@@ -673,12 +760,14 @@ function renderResultView() {
       }
       <div class="result-actions">
         ${wrongBtnHtml}
+        <button type="button" class="btn-result-secondary" id="btn-rank-board">排行榜 🏆</button>
         <button type="button" class="btn-result-secondary" id="btn-copy-site-url">复制链接，可分享给朋友玩~ 😎</button>
         <button type="button" class="btn-result-primary" id="btn-result-home">回到首页 👈</button>
       </div>
       ${footerLinksHtml()}
     </div>
     ${contactOverlayHtml()}
+    ${rankOverlayHtml()}
     <div class="wrong-overlay hidden" id="wrong-overlay">
       <div class="wrong-panel" id="wrong-panel-inner">
         <div class="wrong-panel-title">错题回顾</div>
@@ -782,4 +871,5 @@ function renderResultView() {
   bindContactModal()
 }
 
+ensureRankBoardHandlers()
 render()
