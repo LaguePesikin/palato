@@ -8,7 +8,8 @@
     "prebuild": "node scripts/sync-catalog.mjs",
     "build": "vite build",
     "preview": "vite preview",
-    "sync:catalog": "node scripts/sync-catalog.mjs"
+    "sync:catalog": "node scripts/sync-catalog.mjs",
+    "seed:leaderboard": "node scripts/seed-leaderboard.mjs"
   },
   "devDependencies": {
     "@vercel/node": "^3.2.29",

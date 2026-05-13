@@ -10,6 +10,22 @@ type Meta = {
   totalCount: number
 }
 
+/** Upstash get 可能返回已解析的 object，也可能仍是 string */
+function parseStoredMeta(raw: unknown): Partial<Meta> | null {
+  if (raw == null) return null
+  if (typeof raw === 'object' && !Array.isArray(raw)) {
+    return raw as Partial<Meta>
+  }
+  if (typeof raw === 'string') {
+    try {
+      return JSON.parse(raw) as Partial<Meta>
+    } catch {
+      return null
+    }
+  }
+  return null
+}
+
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   res.setHeader('content-type', 'application/json; charset=utf-8')
 
@@ -55,19 +71,15 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       const member = flat[i]
       const scoreStr = flat[i + 1]
       if (member == null || scoreStr == null) continue
-      const raw = await redis.get<string>(metaKey(String(member)))
+      const raw = await redis.get(metaKey(String(member)))
       let nick = '玩家'
       let correctCount = 0
       let totalCount = 0
-      if (raw) {
-        try {
-          const m = JSON.parse(raw) as Partial<Meta>
-          if (typeof m.nickName === 'string') nick = m.nickName.slice(0, 32)
-          if (typeof m.correctCount === 'number') correctCount = m.correctCount
-          if (typeof m.totalCount === 'number') totalCount = m.totalCount
-        } catch {
-          /* ignore */
-        }
+      const m = parseStoredMeta(raw)
+      if (m) {
+        if (typeof m.nickName === 'string') nick = m.nickName.slice(0, 32)
+        if (typeof m.correctCount === 'number') correctCount = m.correctCount
+        if (typeof m.totalCount === 'number') totalCount = m.totalCount
       }
       entries.push({
         rank: entries.length + 1,
