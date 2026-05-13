@@ -376,7 +376,7 @@ body {
 
 .rank-row {
   display: grid;
-  grid-template-columns: 1.75rem 1fr auto auto;
+  grid-template-columns: 1.75rem 1fr auto;
   gap: 0.35rem 0.5rem;
   align-items: center;
   padding: 0.45rem 0.35rem;
@@ -406,12 +406,6 @@ body {
   font-variant-numeric: tabular-nums;
   font-weight: 600;
   color: #fbbf24;
-}
-
-.rank-row-sub {
-  font-variant-numeric: tabular-nums;
-  font-size: 0.78rem;
-  color: #9ca3af;
 }
 
 .daily-tip-panel {

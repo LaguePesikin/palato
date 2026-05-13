@@ -306,7 +306,6 @@ async function openRankBoardModal() {
       <span class="rank-row-num">${row.rank}</span>
       <span class="rank-row-nick">${escapeHtml(row.nickName)}</span>
       <span class="rank-row-score">${row.finalScore.toFixed(2)}</span>
-      <span class="rank-row-sub">${row.correctCount}/${row.totalCount}</span>
     </div>`
     )
     .join('')
