@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "true_count": 10,
+  "true_count": 179,
   "entries": [
     {
       "uid": "83ad2dbf-7d41-4a8b-a204-c75a85a0e1d1",
@@ -16,36 +16,6 @@
         "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/easy/true-1.png"
       ],
       "content_sha256": "4c95e1db5cdb63b892e28ddbed469109c4a17baf82c64826fff7c8fb21de7646"
-    },
-    {
-      "uid": "e705c6d9-b3d3-4296-bf09-0c0583850c86",
-      "filename": "e705c6d9-b3d3-4296-bf09-0c0583850c86.png",
-      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/e705c6d9-b3d3-4296-bf09-0c0583850c86.png",
-      "assets_pool_tiers": [
-        "easy"
-      ],
-      "is_cropped_800x800": true,
-      "width": 800,
-      "height": 800,
-      "sources": [
-        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/easy/true-10.png"
-      ],
-      "content_sha256": "68a7c51e34aab133f73f5b8e85df31770459f18718e6a69b8439691acb556961"
-    },
-    {
-      "uid": "8275bf9c-d90f-4f98-8c2a-bc78eb9bff6c",
-      "filename": "8275bf9c-d90f-4f98-8c2a-bc78eb9bff6c.png",
-      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/8275bf9c-d90f-4f98-8c2a-bc78eb9bff6c.png",
-      "assets_pool_tiers": [
-        "easy"
-      ],
-      "is_cropped_800x800": true,
-      "width": 800,
-      "height": 800,
-      "sources": [
-        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/easy/true-2.png"
-      ],
-      "content_sha256": "13dd88307b05fcc8541a57ab1e0545b1fbcfb3e88755f4f3d86cb55a4ab15045"
     },
     {
       "uid": "0adaa436-b95d-47b6-bbc4-7f8b181b6fd7",
@@ -108,21 +78,6 @@
       "content_sha256": "ea6abefc067466ac823f026418562b185f03c749081c80663b66da0a696661cd"
     },
     {
-      "uid": "e6955ef6-86c6-4c3a-9b50-2841c701b0d8",
-      "filename": "e6955ef6-86c6-4c3a-9b50-2841c701b0d8.png",
-      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/e6955ef6-86c6-4c3a-9b50-2841c701b0d8.png",
-      "assets_pool_tiers": [
-        "easy"
-      ],
-      "is_cropped_800x800": true,
-      "width": 800,
-      "height": 800,
-      "sources": [
-        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/easy/true-7.png"
-      ],
-      "content_sha256": "df522e630aef3dc431644ce0d4d1c99cd4fe4488907d8d7a4660b5bd0ff3940b"
-    },
-    {
       "uid": "61a31c83-bea3-405f-8534-29d115e23d1d",
       "filename": "61a31c83-bea3-405f-8534-29d115e23d1d.png",
       "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/61a31c83-bea3-405f-8534-29d115e23d1d.png",
@@ -151,6 +106,3103 @@
         "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/easy/true-9.png"
       ],
       "content_sha256": "617e6b4324b650a6d9f6c8b7995e830812a9ce91dc1207665f2dd500a383bd02"
+    },
+    {
+      "uid": "03dd1cda-fb22-490c-915a-8ef5c8004aa1",
+      "filename": "03dd1cda-fb22-490c-915a-8ef5c8004aa1.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/03dd1cda-fb22-490c-915a-8ef5c8004aa1.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0099_Santorini_Greece_File_07-17-2012_-_Emborio_-_Emporio_-_Santorini_-_Greece_-.jpeg"
+      ],
+      "content_sha256": "a4db59095e79590891fbfb8861ae15766df26612f81f29515d5d47a5cab3d526"
+    },
+    {
+      "uid": "06d05156-4fa2-4db2-8aa8-e15b03af438e",
+      "filename": "06d05156-4fa2-4db2-8aa8-e15b03af438e.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/06d05156-4fa2-4db2-8aa8-e15b03af438e.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0013_Barcelona_Gothic_Quarter_File_Gothic_Quarter_Barcelona_1_30884069420_jpg.jpeg"
+      ],
+      "content_sha256": "65aeb2632f0ee2bf7228ca620a09802a02bc949cac0720492701410f11503e5e"
+    },
+    {
+      "uid": "07dad928-4e17-477b-a130-d74181c4193d",
+      "filename": "07dad928-4e17-477b-a130-d74181c4193d.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/07dad928-4e17-477b-a130-d74181c4193d.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0092_Scottish_Highlands_loch_File_A_very_steep_new_Track_above_Loch_Eilt_Scottis.jpeg"
+      ],
+      "content_sha256": "4e3d43548d5b2c3ccb3f7a29aacf26d3107bb5335c29588422e8ec4c57eb0ac4"
+    },
+    {
+      "uid": "08cf350b-30c4-40da-b0f2-41e622b8e0a8",
+      "filename": "08cf350b-30c4-40da-b0f2-41e622b8e0a8.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/08cf350b-30c4-40da-b0f2-41e622b8e0a8.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0091_sushi_restaurant_File_Nagisa_Sushi_Restaurant_in_Lod_jpg.jpeg"
+      ],
+      "content_sha256": "42cfbe4bd4c7545c96fcfe120734906decc865a41e2ac4925bea99a600aeb985"
+    },
+    {
+      "uid": "0974e352-659f-4556-982d-7b5d76793e5d",
+      "filename": "0974e352-659f-4556-982d-7b5d76793e5d.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/0974e352-659f-4556-982d-7b5d76793e5d.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0048_Chicago_skyline_File_Chicago-USA-Skyline-September-2014_jpg.jpeg"
+      ],
+      "content_sha256": "bf6770454799d1962f2b11a675245231f3e58def4980a7b671bf7c42e377eb6e"
+    },
+    {
+      "uid": "0c254b0e-44c9-4b8d-ab59-0b24c9bcf7d6",
+      "filename": "0c254b0e-44c9-4b8d-ab59-0b24c9bcf7d6.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/0c254b0e-44c9-4b8d-ab59-0b24c9bcf7d6.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0082_Thailand_tropical_beach_File_Emerald_tropical_lagoon_in_Phang_Nga_Bay_Thail.jpeg"
+      ],
+      "content_sha256": "aa705db9e0d6717769c716c3b7bc7000c6d40f894aceeac185134af5b102afa5"
+    },
+    {
+      "uid": "0d74c94b-dbf2-433b-9242-8618f83d992e",
+      "filename": "0d74c94b-dbf2-433b-9242-8618f83d992e.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/0d74c94b-dbf2-433b-9242-8618f83d992e.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0007_London_Thames_File_A_gray_day_London_the_Thames_jpg.jpeg"
+      ],
+      "content_sha256": "4ab3d92c9b7c2d6a4bd708438a612fbf9df68756e37d5f356a0aa58235a4b387"
+    },
+    {
+      "uid": "0fdd55d2-b565-4ced-929d-f395f4ef891c",
+      "filename": "0fdd55d2-b565-4ced-929d-f395f4ef891c.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/0fdd55d2-b565-4ced-929d-f395f4ef891c.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0017_Shanghai_Bund_File_2006_Shanghai_Bund-_Customs_House_1927_jpg.jpeg"
+      ],
+      "content_sha256": "6d057ffdc5c895729ca895dc79998a4ea8bdc8270eda4aa9fe35a7ab8283dc2b"
+    },
+    {
+      "uid": "107eb50e-6211-4f40-961e-565372c6b6e2",
+      "filename": "107eb50e-6211-4f40-961e-565372c6b6e2.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/107eb50e-6211-4f40-961e-565372c6b6e2.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0032_Prague_Old_Town_File_Jan_Hus_Statue_Old_Town_Square_jpg.jpeg"
+      ],
+      "content_sha256": "c0cd5d6f05439b6f4f3d9ceaf01df0ac3174cc6a728e51dc43aa2b736c40a783"
+    },
+    {
+      "uid": "14ac8ef5-5d25-4aa4-9340-7aa0e619fc40",
+      "filename": "14ac8ef5-5d25-4aa4-9340-7aa0e619fc40.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/14ac8ef5-5d25-4aa4-9340-7aa0e619fc40.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0081_market_vegetables_File_Vegetable_market_Havelock_Island_Andamans_jpg.jpeg"
+      ],
+      "content_sha256": "cb77f35df766bb58f3980bef5edcb3da4fe2951ab686f121cc22b04ad2c90efc"
+    },
+    {
+      "uid": "150c7a5d-9328-49b2-9d62-40ebe9b916ba",
+      "filename": "150c7a5d-9328-49b2-9d62-40ebe9b916ba.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/150c7a5d-9328-49b2-9d62-40ebe9b916ba.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0073_Iceland_waterfall_File_Goðafoss_Waterfall_Iceland_20240716_0827_1069_jpg.jpeg"
+      ],
+      "content_sha256": "4aa63d4b427d04e010dcb164a640677c2a104f6793d51cd3ef4b0e21d856ff94"
+    },
+    {
+      "uid": "18226115-625a-4929-a563-6f821b0fda18",
+      "filename": "18226115-625a-4929-a563-6f821b0fda18.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/18226115-625a-4929-a563-6f821b0fda18.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0037_mountain_trail_hiking_File_Hiking_trail_on_Námafjall_Mountain_Iceland_20240.jpeg"
+      ],
+      "content_sha256": "c1ba160c52baa5d3590a815ed00f317b7965804df25606262d00bed0278a5a5a"
+    },
+    {
+      "uid": "19d1b1f3-f153-4aaa-89d1-f6d7d6140a14",
+      "filename": "19d1b1f3-f153-4aaa-89d1-f6d7d6140a14.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/19d1b1f3-f153-4aaa-89d1-f6d7d6140a14.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0028_snow_suburban_road_File_Suburban_Reading_in_the_snow_-_geograph_org_uk_-_16.jpeg"
+      ],
+      "content_sha256": "beef8b64f6cbc3ddf35692c659f6ad664feb1210709a8718a96f62246a1bec2d"
+    },
+    {
+      "uid": "1a221e6f-4309-4689-ae26-7718d83e4cea",
+      "filename": "1a221e6f-4309-4689-ae26-7718d83e4cea.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/1a221e6f-4309-4689-ae26-7718d83e4cea.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_indoor/0079_greenhouse_interior_plants_person_File_Graffiti_Greenhouse_Plant_Building_i.jpeg"
+      ],
+      "content_sha256": "08fe1c7a43dc11245245d0495a2f3245b40e6658a2bb6334e2c708ad6a7b34a3"
+    },
+    {
+      "uid": "1c057824-cb7e-4b91-af6e-d346937e81a8",
+      "filename": "1c057824-cb7e-4b91-af6e-d346937e81a8.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/1c057824-cb7e-4b91-af6e-d346937e81a8.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0075_Kenya_savannah_File_200812_kenya-129_3213104881_jpg.jpeg"
+      ],
+      "content_sha256": "6a280ffc0f994b9bc7fb8c6559e2db0823b3deb8fc2b8babd376283c6d426d93"
+    },
+    {
+      "uid": "1c085692-4c05-4865-920f-f47aa016ccfc",
+      "filename": "1c085692-4c05-4865-920f-f47aa016ccfc.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/1c085692-4c05-4865-920f-f47aa016ccfc.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0038_rain_wet_pavement_File_Hämeentie_in_heavy_rain_on_an_afternoon_in_August_20.jpeg"
+      ],
+      "content_sha256": "5d2bcd026aa987954d215fcf7cf268c6f3b359d659f899a68198f3627d97bc71"
+    },
+    {
+      "uid": "1c90c49f-dd32-44cc-86a1-0c4097a9fec6",
+      "filename": "1c90c49f-dd32-44cc-86a1-0c4097a9fec6.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/1c90c49f-dd32-44cc-86a1-0c4097a9fec6.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0004_Hong_Kong_harbor_File_2005_Hong_Kong_harbor_10_jpg.jpeg"
+      ],
+      "content_sha256": "82ca06b3cbc78537791694f3c3fa710f8a832e1814e0144e20864faf04d56c87"
+    },
+    {
+      "uid": "1d0a7873-58f1-4593-9ae8-fdb81d2f5e9a",
+      "filename": "1d0a7873-58f1-4593-9ae8-fdb81d2f5e9a.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/1d0a7873-58f1-4593-9ae8-fdb81d2f5e9a.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0009_Paris_street_cafe_File_A_cafe_near_the_medical_school_Paris_14_April_2010_j.jpeg"
+      ],
+      "content_sha256": "ec2af986f549c2ed6321b6696439acb6f7c4f4c3c47f14507d90ee01ce96c88d"
+    },
+    {
+      "uid": "1efa60ed-6394-479c-a282-0f42ed41dbb1",
+      "filename": "1efa60ed-6394-479c-a282-0f42ed41dbb1.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/1efa60ed-6394-479c-a282-0f42ed41dbb1.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0075_rice_terrace_File_Terrace_field_yunnan_china_denoised_jpg.jpeg"
+      ],
+      "content_sha256": "35960a026d5564232b7a817c8f2fe8ee8a46e5dce4e42cada01e39ad7387e721"
+    },
+    {
+      "uid": "1f63e895-ed66-42d2-9793-7d5ff3d6a908",
+      "filename": "1f63e895-ed66-42d2-9793-7d5ff3d6a908.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/1f63e895-ed66-42d2-9793-7d5ff3d6a908.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0078_Morocco_blue_city_File_Akchour_Chefchaouen_jpg.jpeg"
+      ],
+      "content_sha256": "66e8e4a0964c39af0404a2547fb7bca7e4c74873e4c09ea7bdb2fc19c540d55b"
+    },
+    {
+      "uid": "2536973e-d03b-4f56-9f2f-423c5601bccf",
+      "filename": "2536973e-d03b-4f56-9f2f-423c5601bccf.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/2536973e-d03b-4f56-9f2f-423c5601bccf.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0015_Istanbul_mosque_skyline_File_Fatih_Hebrew_Wikivoyage_front_page_banner_jpg.jpeg"
+      ],
+      "content_sha256": "3eb0c27b06a1f8e00be753ab1b09c821d4026c162064283ed314b7864432c411"
+    },
+    {
+      "uid": "26ec7829-cca1-4946-8cd1-e5a25bf1e52d",
+      "filename": "26ec7829-cca1-4946-8cd1-e5a25bf1e52d.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/26ec7829-cca1-4946-8cd1-e5a25bf1e52d.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0047_Chicago_skyline_File_Architecture_-_Chicago_-_Illinois_-_USA_-_01_jpg.jpeg"
+      ],
+      "content_sha256": "df9b3f7a63ce752f9864fb3a7e64860b865b3299448f9beb93bc20fd01ae5fc5"
+    },
+    {
+      "uid": "2bd17121-6ffc-47a9-9868-22f9f77ebef7",
+      "filename": "2bd17121-6ffc-47a9-9868-22f9f77ebef7.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/2bd17121-6ffc-47a9-9868-22f9f77ebef7.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0097_New_Zealand_fjord_File_00_1406_Neuseeland_Fjordland-Nationalpark_-_Doubtful.jpeg"
+      ],
+      "content_sha256": "45e7c9cce078abd99545f6a0273bccd0cc64351113c200fb47e4b23ff9d9b9f2"
+    },
+    {
+      "uid": "2f2c0603-5c62-4170-88d2-425d5efddd65",
+      "filename": "2f2c0603-5c62-4170-88d2-425d5efddd65.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/2f2c0603-5c62-4170-88d2-425d5efddd65.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/WechatIMG969.jpg"
+      ],
+      "content_sha256": "24fd7b6d21407d2de098c17046ca46b07183d34db81076a38bd152e111782534"
+    },
+    {
+      "uid": "2f507b22-7afd-4ea2-9351-5e1ebb072bb5",
+      "filename": "2f507b22-7afd-4ea2-9351-5e1ebb072bb5.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/2f507b22-7afd-4ea2-9351-5e1ebb072bb5.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0032_beach_seagulls_File_Seagulls_Miami_Beach_R01_jpg.jpeg"
+      ],
+      "content_sha256": "163615810e19b238f4f6150d2bebb89ae7e83f7348ef8b98d33183c5a898eab7"
+    },
+    {
+      "uid": "2fc15af4-ad98-4bb6-a2c1-7a8835683c1b",
+      "filename": "2fc15af4-ad98-4bb6-a2c1-7a8835683c1b.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/2fc15af4-ad98-4bb6-a2c1-7a8835683c1b.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0014_Barcelona_Gothic_Quarter_File_Gothic_Quarter_Barcelona_15_30442722553_jpg.jpeg"
+      ],
+      "content_sha256": "877cdfad11f38c0d1787b9938d4a7d5e5fa35bbadf8c63d3b5c8d2977704ee24"
+    },
+    {
+      "uid": "300e1c29-03b4-45b9-9077-1a54321d7fad",
+      "filename": "300e1c29-03b4-45b9-9077-1a54321d7fad.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/300e1c29-03b4-45b9-9077-1a54321d7fad.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0084_birthday_cake_table_File_Birthday_table_setting_jpg.jpeg"
+      ],
+      "content_sha256": "e7a13625d72e6f7e153e3ecbf98cde0c34f3e6ac1e9fba46185747da1bb44437"
+    },
+    {
+      "uid": "313a8700-acae-4ad7-92ef-08d59f860a6f",
+      "filename": "313a8700-acae-4ad7-92ef-08d59f860a6f.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/313a8700-acae-4ad7-92ef-08d59f860a6f.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0042_convenience_store_neon_File_WE_NEVER_CLOSE_Elmwood_Avenue_Buffalo_New_York.jpeg"
+      ],
+      "content_sha256": "94c835ebdf6ed3b606ed4325d4f341bd06dfb9bceee5e9e5488c343548250c74"
+    },
+    {
+      "uid": "32a32109-538b-412a-8d54-385a34af714f",
+      "filename": "32a32109-538b-412a-8d54-385a34af714f.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/32a32109-538b-412a-8d54-385a34af714f.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0016_Istanbul_mosque_skyline_File_Fatihistanbul_jpg.jpeg"
+      ],
+      "content_sha256": "57dde58a188b275e12ca817c06668f9d37b87b38ef0a0c487c7f1239cd51cd92"
+    },
+    {
+      "uid": "32df3411-7a07-41a3-b5c3-b61497c42ce0",
+      "filename": "32df3411-7a07-41a3-b5c3-b61497c42ce0.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/32df3411-7a07-41a3-b5c3-b61497c42ce0.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_indoor/0065_flower_shop_interior_counter_File_Eastern_Market_Fire_4_30_07_jpg.jpeg"
+      ],
+      "content_sha256": "924b9253c8ed9b854f87c805f235a495c65348b1dac53bab37aa770d826dab06"
+    },
+    {
+      "uid": "33369b0d-9e23-4288-9c42-c09e812770d6",
+      "filename": "33369b0d-9e23-4288-9c42-c09e812770d6.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/33369b0d-9e23-4288-9c42-c09e812770d6.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0088_Kyoto_temple_autumn_File_Autumn_Leaves_in_Kiyomizudera_Temple_2_JPG.jpeg"
+      ],
+      "content_sha256": "6ce41223884196a0526c7cada04b92a65c8d29cbf5067ad84b71a6ac3f048236"
+    },
+    {
+      "uid": "3337cffa-ca1a-4710-bdc9-93a25a7ee7a5",
+      "filename": "3337cffa-ca1a-4710-bdc9-93a25a7ee7a5.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/3337cffa-ca1a-4710-bdc9-93a25a7ee7a5.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_indoor/0047_bus_interior_passengers_seated_File_1959_Bristol_LD_6G-ECW_-_54693538795_jp.jpeg"
+      ],
+      "content_sha256": "7e86019f8478fbfaf120d79328f8005d16fca0af270f8ae565d272519ba91a41"
+    },
+    {
+      "uid": "3598f092-98a0-461b-83db-5c74a3f169c9",
+      "filename": "3598f092-98a0-461b-83db-5c74a3f169c9.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/3598f092-98a0-461b-83db-5c74a3f169c9.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0074_rice_terrace_File_Tabanan-Regency_Indonesia_Rice-paddies-06_jpg.jpeg"
+      ],
+      "content_sha256": "5f570cb27abde2d860b03180b3eb826826628dc5d4d184313c4592f8753a39ea"
+    },
+    {
+      "uid": "36190676-a4d9-4d61-aac0-51ae58619a3f",
+      "filename": "36190676-a4d9-4d61-aac0-51ae58619a3f.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/36190676-a4d9-4d61-aac0-51ae58619a3f.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_indoor/0075_shopping_mall_escalator_interior_File_Dos_Mares_Interior_5_jpg.jpeg"
+      ],
+      "content_sha256": "c6222225e098686c06578b05c15c8f276d2abcb480c77958b233b631fcf7abc3"
+    },
+    {
+      "uid": "37123d1a-fe79-4068-8f6e-24bd0d90f411",
+      "filename": "37123d1a-fe79-4068-8f6e-24bd0d90f411.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/37123d1a-fe79-4068-8f6e-24bd0d90f411.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_indoor/0026_cat_window_sill_indoor_File_2011-04_Fenster-in_Niedersachsen_jpg.jpeg"
+      ],
+      "content_sha256": "541400244d7a3fbf6ef3cc44c2650a964b02ceabaadd2ed5a7494ab907ed08b6"
+    },
+    {
+      "uid": "39a5a16b-2ae6-4c64-9dda-913397c38c93",
+      "filename": "39a5a16b-2ae6-4c64-9dda-913397c38c93.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/39a5a16b-2ae6-4c64-9dda-913397c38c93.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0020_street_food_night_File_Open_refrigerator_with_food_at_night_jpg.jpeg"
+      ],
+      "content_sha256": "029d54d57081646dc7c70f5f182939b5f3866839f24cfd5000401174eda15d5d"
+    },
+    {
+      "uid": "39d353d4-458d-4a20-8de0-ffdc64c701a0",
+      "filename": "39d353d4-458d-4a20-8de0-ffdc64c701a0.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/39d353d4-458d-4a20-8de0-ffdc64c701a0.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0020_San_Francisco_bay_File_A_boat_in_the_San_Francisco_bay_3_jpg.jpeg"
+      ],
+      "content_sha256": "bf856e760f595e5e65d7174df88b305251cec49ab1bfaa6cdc67638dc02b765b"
+    },
+    {
+      "uid": "3a0232a7-f4be-4481-9e12-52a56f824058",
+      "filename": "3a0232a7-f4be-4481-9e12-52a56f824058.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/3a0232a7-f4be-4481-9e12-52a56f824058.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_indoor/0030_birthday_party_living_room_File_Edith_Rigby_s_house_jpg.jpeg"
+      ],
+      "content_sha256": "76cd844f52750edd19f9a5c332438eddcb02f0b58981c3ad79f816d38e7d877e"
+    },
+    {
+      "uid": "3dd20ecc-db57-4748-9cd4-3ac2550d3429",
+      "filename": "3dd20ecc-db57-4748-9cd4-3ac2550d3429.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/3dd20ecc-db57-4748-9cd4-3ac2550d3429.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_indoor/0074_shopping_mall_escalator_interior_File_Dos_Mares_Interior_3_jpg.jpeg"
+      ],
+      "content_sha256": "5d5afe6cebc0b84e2d59f06c96cd6a8f15bac9a81993d8fd29747e59475c73c5"
+    },
+    {
+      "uid": "3deac82b-61e2-402d-8494-c72e3fcb0509",
+      "filename": "3deac82b-61e2-402d-8494-c72e3fcb0509.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/3deac82b-61e2-402d-8494-c72e3fcb0509.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0079_city_skyline_dusk_File_Édifice_Price_at_night_Quebec_city_Canada_jpg.jpeg"
+      ],
+      "content_sha256": "d21c6bdfbc4cf7c6120bfa49b01d035dfe261e922dc688e18d9e56776f8938ab"
+    },
+    {
+      "uid": "3e0e5518-4ef6-43dd-931e-70b136ffc3db",
+      "filename": "3e0e5518-4ef6-43dd-931e-70b136ffc3db.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/3e0e5518-4ef6-43dd-931e-70b136ffc3db.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0029_Amsterdam_canal_File_A_canal_in_Amsterdam_-_Sarah_Stierch_jpg.jpeg"
+      ],
+      "content_sha256": "fba4e47252452ceac31d326f2d9c78081be6881f676d67b7a66eff3670daff84"
+    },
+    {
+      "uid": "40645723-2219-4b2c-a313-514a356c50e7",
+      "filename": "40645723-2219-4b2c-a313-514a356c50e7.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/40645723-2219-4b2c-a313-514a356c50e7.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0071_desert_highway_File_Tarim_Desert_Highway_-_Desert_Scene_Xinjiang_China_jpg.jpeg"
+      ],
+      "content_sha256": "eec7cbfde6f4a45e4effd1507ad7d77feb5c03f193472bc9198cd2de967f130c"
+    },
+    {
+      "uid": "41bd7671-4acf-4a8d-b16c-beabff6e4992",
+      "filename": "41bd7671-4acf-4a8d-b16c-beabff6e4992.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/41bd7671-4acf-4a8d-b16c-beabff6e4992.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0014_duck_pond_File_Domestic_duck_bathing_and_splashing_in_a_pond_at_golden_hour.jpeg"
+      ],
+      "content_sha256": "5fa712da518aa08abdbab993a0a3375c2d4207b5b0337eaaf2248d7a082221f7"
+    },
+    {
+      "uid": "43c210b0-f131-4c4e-801f-7a8093f7ee4a",
+      "filename": "43c210b0-f131-4c4e-801f-7a8093f7ee4a.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/43c210b0-f131-4c4e-801f-7a8093f7ee4a.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_indoor/0040_guitar_practice_bedroom_File_DIG13766-024_-_Ladies_and_Gentlemen_the_Beatle.jpeg"
+      ],
+      "content_sha256": "79badaa2eaa7b38a878752ae3608a20f5347c25e3a016b533e8ecfc30b0914ce"
+    },
+    {
+      "uid": "4a4535e8-7412-4c42-8da8-7988cf4f9b41",
+      "filename": "4a4535e8-7412-4c42-8da8-7988cf4f9b41.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/4a4535e8-7412-4c42-8da8-7988cf4f9b41.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0042_Mexico_City_Zocalo_File_Catedral_Metropolitana_Mexico_City_-_Zocalo_square.jpeg"
+      ],
+      "content_sha256": "9135ec66893fbe70d9a2bf915b7b146e57c6a8c59b329a3192ee2a1ef5e14030"
+    },
+    {
+      "uid": "4a9129fc-7517-4fb2-80f2-13475fd530f5",
+      "filename": "4a9129fc-7517-4fb2-80f2-13475fd530f5.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/4a9129fc-7517-4fb2-80f2-13475fd530f5.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0055_coffee_shop_window_File_Coffee_Prince_window_art_JPG.jpeg"
+      ],
+      "content_sha256": "f1c081ffa24b34386a574d45da04a1182e8f828d4d931d5a32616566a256b984"
+    },
+    {
+      "uid": "4f10cecb-8cd4-4016-a382-8a0883f4f711",
+      "filename": "4f10cecb-8cd4-4016-a382-8a0883f4f711.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/4f10cecb-8cd4-4016-a382-8a0883f4f711.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0003_Hong_Kong_harbor_File_2005_Hong_Kong_harbor_jpg.jpeg"
+      ],
+      "content_sha256": "3958d3c61964e706400d9e0957b8ec2e797a7a4692224b13bcc8474c7ff56e82"
+    },
+    {
+      "uid": "50314d19-da2a-4f11-8696-718aebf783d6",
+      "filename": "50314d19-da2a-4f11-8696-718aebf783d6.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/50314d19-da2a-4f11-8696-718aebf783d6.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0002_tabby_cat_File_Felis_catus-cat_on_snow_jpg.jpeg"
+      ],
+      "content_sha256": "a25d97947072b1534f3775af7b45750b6f9ebf182c742735cf776883ed261cb7"
+    },
+    {
+      "uid": "5133aab6-55b5-4eac-acfd-d5eae425f233",
+      "filename": "5133aab6-55b5-4eac-acfd-d5eae425f233.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/5133aab6-55b5-4eac-acfd-d5eae425f233.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0098_New_Zealand_fjord_File_00_1409_New_Zealand_Fiordland_National_Park_-_Doubtf.jpeg"
+      ],
+      "content_sha256": "a9c7bcb6942da1f5e43f6a03d3eb51d75b0f0fe217a4016d0ae395c38692a536"
+    },
+    {
+      "uid": "52390de8-510c-455f-aa53-667518a5d53b",
+      "filename": "52390de8-510c-455f-aa53-667518a5d53b.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/52390de8-510c-455f-aa53-667518a5d53b.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0006_dog_park_File_Dog_park_Signage_Hundeauslauffläche_jpg.jpeg"
+      ],
+      "content_sha256": "84c1ee33c95b5d2e22614b513fe3a8bb3778c1992350a548bf1368c5cead5408"
+    },
+    {
+      "uid": "52a4b55b-8630-40ba-a2ed-bae9530b7de3",
+      "filename": "52a4b55b-8630-40ba-a2ed-bae9530b7de3.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/52a4b55b-8630-40ba-a2ed-bae9530b7de3.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0011_squirrel_tree_File_Squirrel_in_CP_40494_jpg.jpeg"
+      ],
+      "content_sha256": "90d960d089cd337e674b9d7b226bdbc1efcf11842eb03205e10f1639f2da87fc"
+    },
+    {
+      "uid": "52a66654-b58c-4da1-9bd7-5432fa82163e",
+      "filename": "52a66654-b58c-4da1-9bd7-5432fa82163e.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/52a66654-b58c-4da1-9bd7-5432fa82163e.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0030_Amsterdam_canal_File_Amsterdam_NL_Herengracht_--_2015_--_7174_jpg.jpeg"
+      ],
+      "content_sha256": "a39585184e726e0b9185c2988c57d1e03d629660a54fba5ccf5946cfd84db7dc"
+    },
+    {
+      "uid": "539fc088-baa1-4b66-8e0b-11c13b328e45",
+      "filename": "539fc088-baa1-4b66-8e0b-11c13b328e45.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/539fc088-baa1-4b66-8e0b-11c13b328e45.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0080_market_vegetables_File_Municipal_Market_of_São_Paulo_city_jpg.jpeg"
+      ],
+      "content_sha256": "84320fe84a3c73b1736d976c19ed510ed1303c1c297d7d2c62da69a8c99a0217"
+    },
+    {
+      "uid": "54cf344d-50c5-49e5-b4f9-d6a253f7535a",
+      "filename": "54cf344d-50c5-49e5-b4f9-d6a253f7535a.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/54cf344d-50c5-49e5-b4f9-d6a253f7535a.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0095_campfire_marshmallow_File_Roasting_marshmallows_on_the_beach_jpg.jpeg"
+      ],
+      "content_sha256": "5d845b6e4478c1ae9e241cb8f1970836da5c079ce4b45575d8445fab782c3fd7"
+    },
+    {
+      "uid": "57cfbf9e-7a44-4525-99e8-5cf8805c9d51",
+      "filename": "57cfbf9e-7a44-4525-99e8-5cf8805c9d51.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/57cfbf9e-7a44-4525-99e8-5cf8805c9d51.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0085_Costa_Rica_rainforest_File_Bromeliad_Air_Plants_in_Costa_Rica_6126_jpg.jpeg"
+      ],
+      "content_sha256": "8ecdc2d53ac4256ab8a1da86e56abcd5bc250d1d3a29ecb509e9e41555488609"
+    },
+    {
+      "uid": "5bf359bc-ecda-4993-a201-c05fe3739fcd",
+      "filename": "5bf359bc-ecda-4993-a201-c05fe3739fcd.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/5bf359bc-ecda-4993-a201-c05fe3739fcd.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0037_Toronto_skyline_File_Skyline_of_Toronto_Canada10_jpg.jpeg"
+      ],
+      "content_sha256": "85a68e0441ce23fc7ecac6f9829cb554f29f9c1a72d714775f790bf52998a5cf"
+    },
+    {
+      "uid": "5d295458-2edc-4a94-80b8-6f45f2a97d38",
+      "filename": "5d295458-2edc-4a94-80b8-6f45f2a97d38.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/5d295458-2edc-4a94-80b8-6f45f2a97d38.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0084_Philippines_tropical_island_File_El_Nido_Bay_Island_lagoon_Palawan_Philippi.jpeg"
+      ],
+      "content_sha256": "fa02caa1cd50d049ec4748a9a8257b50e045c3702972d68525a774a4f44c4e44"
+    },
+    {
+      "uid": "5f243b86-64fa-4ec7-a656-cbed4178d19c",
+      "filename": "5f243b86-64fa-4ec7-a656-cbed4178d19c.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/5f243b86-64fa-4ec7-a656-cbed4178d19c.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0057_coffee_shop_window_File_Orange_Couch_Coffee_Shop_Ordering_Window_Sept_2020.jpeg"
+      ],
+      "content_sha256": "aea66fe5eb9892b5c78193a3ea464af98a58e8a9b4258d81a9d17f6e7b885975"
+    },
+    {
+      "uid": "604910e7-b7d5-46fb-a8c7-115fcc35ac7c",
+      "filename": "604910e7-b7d5-46fb-a8c7-115fcc35ac7c.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/604910e7-b7d5-46fb-a8c7-115fcc35ac7c.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0012_Dubai_marina_File_DUBA2147_jpg.jpeg"
+      ],
+      "content_sha256": "8f1f28722964bb111e2baeda3e7ddd62d69172cce016f4c88ba97988a90ecdcf"
+    },
+    {
+      "uid": "6215ab32-0c81-4c46-adc2-106e358c4933",
+      "filename": "6215ab32-0c81-4c46-adc2-106e358c4933.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/6215ab32-0c81-4c46-adc2-106e358c4933.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0064_construction_site_urban_File_Construction_site_of_Beitaipingzhuang_Station.jpeg"
+      ],
+      "content_sha256": "0de2e75be56f79e2a13d8c1f70f063e66e3f1de738c6c3f7564b2baccf0fa28a"
+    },
+    {
+      "uid": "62f50b06-7024-40d7-aa06-8987e2390083",
+      "filename": "62f50b06-7024-40d7-aa06-8987e2390083.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/62f50b06-7024-40d7-aa06-8987e2390083.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_indoor/0067_gym_indoor_weights_people_File_Looking_SW_at_Marga_Hosaeus_Fitness_Center_-.jpeg"
+      ],
+      "content_sha256": "860937afd0c4dc34053b68cc5004e077c1e734dc48539745bbe83acdaeb223f1"
+    },
+    {
+      "uid": "66306774-ea8f-42d3-ab7d-4e62c24ead3f",
+      "filename": "66306774-ea8f-42d3-ab7d-4e62c24ead3f.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/66306774-ea8f-42d3-ab7d-4e62c24ead3f.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0097_horse_stable_File_Horse_stable_Erlenhof_in_Gieboldehausen_district_Göttinge.jpeg"
+      ],
+      "content_sha256": "8162d0bd940eddeed50210aa82aa1eed1081d99e0606975e032f05c79d1d8c91"
+    },
+    {
+      "uid": "69514f5e-f40c-4136-9e76-3e081382294f",
+      "filename": "69514f5e-f40c-4136-9e76-3e081382294f.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/69514f5e-f40c-4136-9e76-3e081382294f.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0025_cherry_blossom_street_File_Cherry_blossom_buds_1_-_cropped_jpg.jpeg"
+      ],
+      "content_sha256": "94230178aed6bed8089fc2dfb9cad19ef493e31af9e96af1aeb764804c2b24aa"
+    },
+    {
+      "uid": "6b0b51d4-ba7d-4c0a-becf-6f60af195cda",
+      "filename": "6b0b51d4-ba7d-4c0a-becf-6f60af195cda.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/6b0b51d4-ba7d-4c0a-becf-6f60af195cda.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0054_Times_Square_night_File_Times_Square_NYC_at_night_-_August_2025_jpg.jpeg"
+      ],
+      "content_sha256": "d7956ced936f0f645ad2d6831cdb1f8275585a08cd1407ccc6ae443e9643677d"
+    },
+    {
+      "uid": "6b5f4672-8b45-421c-b458-d28a43c1cfbf",
+      "filename": "6b5f4672-8b45-421c-b458-d28a43c1cfbf.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/6b5f4672-8b45-421c-b458-d28a43c1cfbf.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0019_San_Francisco_bay_File_A_boat_in_San_Francisco_Bay_3_jpg.jpeg"
+      ],
+      "content_sha256": "9ef9c14c7e4be0e8df10d8ce56bd0769a151d30fe20859f0a1edfab2cc774c4b"
+    },
+    {
+      "uid": "6d116c89-acb2-4b5e-98f6-138e6c15b228",
+      "filename": "6d116c89-acb2-4b5e-98f6-138e6c15b228.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/6d116c89-acb2-4b5e-98f6-138e6c15b228.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0041_Mexico_City_Zocalo_File_Bust_of_Cuauhtémoc_Zócalo_Mexico_City_jpg.jpeg"
+      ],
+      "content_sha256": "5649d7cb256d2a72dfbe2f14ad1ac800e795ff370e79f773dcb3c0dba9e2f063"
+    },
+    {
+      "uid": "70441a93-1f4f-4606-87c2-3a3009f4ecd9",
+      "filename": "70441a93-1f4f-4606-87c2-3a3009f4ecd9.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/70441a93-1f4f-4606-87c2-3a3009f4ecd9.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0008_dog_park_File_Villefranche_Saone_dog_park_jpg.jpeg"
+      ],
+      "content_sha256": "df55a2d006baeceed0f65026acc94b5fdeb6ab7990ebd8b5dedbbdef601971bc"
+    },
+    {
+      "uid": "742c4f4c-3baf-4fa6-a8ca-1081fc10c760",
+      "filename": "742c4f4c-3baf-4fa6-a8ca-1081fc10c760.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/742c4f4c-3baf-4fa6-a8ca-1081fc10c760.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_indoor/0049_train_station_waiting_hall_bench_File_Bad_Ragaz_SBB_-_Waiting_Room_51129110.jpeg"
+      ],
+      "content_sha256": "6ca42ddf84fcc87f84c04152593273c7b44afd5c41e69544c6fca1e1d98b0857"
+    },
+    {
+      "uid": "7697587e-435f-4d4a-95fe-1cd0d72d85d4",
+      "filename": "7697587e-435f-4d4a-95fe-1cd0d72d85d4.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/7697587e-435f-4d4a-95fe-1cd0d72d85d4.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0012_squirrel_tree_File_Squirrel_in_Prospect_Park_92553_jpg.jpeg"
+      ],
+      "content_sha256": "1db2d737dd939df5793d9928754dbebcc1245d299045909c927eed05368800f4"
+    },
+    {
+      "uid": "77296747-9eb7-4341-9038-32add699ef1f",
+      "filename": "77296747-9eb7-4341-9038-32add699ef1f.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/77296747-9eb7-4341-9038-32add699ef1f.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0044_convenience_store_neon_File_JR_s_Aucilla_River_Store_jpg.jpeg"
+      ],
+      "content_sha256": "9c5953a9b147c55372d87111812afc493f300242fb6a50f3d9cfe2e61d89aed9"
+    },
+    {
+      "uid": "7767fdd4-b851-45a9-bcb4-81257231966e",
+      "filename": "7767fdd4-b851-45a9-bcb4-81257231966e.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/7767fdd4-b851-45a9-bcb4-81257231966e.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0076_Kenya_savannah_File_3_Zebras_in_the_savannah_jpg.jpeg"
+      ],
+      "content_sha256": "142f80cec0da2e50112ceecf90ebf37f41c7d37f9e179ad3879d8884ea4f7cfe"
+    },
+    {
+      "uid": "783a5234-2022-498d-9940-eedd878e10e4",
+      "filename": "783a5234-2022-498d-9940-eedd878e10e4.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/783a5234-2022-498d-9940-eedd878e10e4.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0030_snow_suburban_road_File_Suburban_street_after_a_heavy_snowfall_-_geograph_o.jpeg"
+      ],
+      "content_sha256": "7d0f1308ba68e2dc58183f7297f93915b54404fbf78d2b3a3912ec6cac0282be"
+    },
+    {
+      "uid": "7a124ca7-6a05-4fec-a682-12eb40a8c717",
+      "filename": "7a124ca7-6a05-4fec-a682-12eb40a8c717.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/7a124ca7-6a05-4fec-a682-12eb40a8c717.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0072_desert_highway_File_Tarim_Desert_Highway_-_Monument_Xinjiang_China_jpg.jpeg"
+      ],
+      "content_sha256": "3db3784fc2270e40b98485a81ab456ba5b621cbd3acd0392599d0507ba9aecf6"
+    },
+    {
+      "uid": "7bdc1564-3a4b-4438-8efb-f35966f07196",
+      "filename": "7bdc1564-3a4b-4438-8efb-f35966f07196.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/7bdc1564-3a4b-4438-8efb-f35966f07196.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_indoor/0073_classroom_students_desks_File_A_classroom_of_Afghan_students_share_a_laugh.jpeg"
+      ],
+      "content_sha256": "6adfa4180a2b6ead1d4cc10382f209545322c264754c7f380cbc53732532791c"
+    },
+    {
+      "uid": "7d9df818-0a1a-4777-813c-14af6e1f5788",
+      "filename": "7d9df818-0a1a-4777-813c-14af6e1f5788.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/7d9df818-0a1a-4777-813c-14af6e1f5788.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_indoor/0015_laptop_sofa_working_home_File_Working_from_the_sofa_on_a_laptop_jpg.jpeg"
+      ],
+      "content_sha256": "4c1b8cb739ffe4b60b540f88d683c1ae21127ab184006130bed78287f84548ed"
+    },
+    {
+      "uid": "7e836970-9b44-4648-bd2e-a3e97022d5e3",
+      "filename": "7e836970-9b44-4648-bd2e-a3e97022d5e3.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/7e836970-9b44-4648-bd2e-a3e97022d5e3.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0005_dog_park_File_Archena_dog_park_activities_jpg.jpeg"
+      ],
+      "content_sha256": "22f43ce550f682874964c00542451afc31c19a247de47d2c9b5f6f4f1175f394"
+    },
+    {
+      "uid": "7f55f6aa-9dc5-43c0-a4fa-72056d8e740f",
+      "filename": "7f55f6aa-9dc5-43c0-a4fa-72056d8e740f.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/7f55f6aa-9dc5-43c0-a4fa-72056d8e740f.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0013_duck_pond_File_A_Duck_pond_and_ducks_in_Howrah_West_Bengal_India_jpg.jpeg"
+      ],
+      "content_sha256": "53f9a28afa7583458cee66597f1d39463a22b1163203131cda8f94a410007e7e"
+    },
+    {
+      "uid": "8241de53-79eb-4ebc-a10a-f95a362d4a97",
+      "filename": "8241de53-79eb-4ebc-a10a-f95a362d4a97.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/8241de53-79eb-4ebc-a10a-f95a362d4a97.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0061_bus_stop_morning_File_Bus_stop_at_Hakaniemi_Market_Square_on_a_morning_in_J.jpeg"
+      ],
+      "content_sha256": "15125917fbdb8a18d0ae1434baa402e03e410d2ed79c8eaa4385ebcbf2ed2b87"
+    },
+    {
+      "uid": "83762ee6-3499-4d22-aa52-8c35612e1631",
+      "filename": "83762ee6-3499-4d22-aa52-8c35612e1631.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/83762ee6-3499-4d22-aa52-8c35612e1631.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_indoor/0068_indoor_swimming_pool_swimmers_File_-2019-12-08_Swimming_pool_Victory_Swim_a.jpeg"
+      ],
+      "content_sha256": "0ed97243a7d52cea7958db3477a73185f2a0db4d059cacd137114297017ab797"
+    },
+    {
+      "uid": "8409cb32-735d-46e9-ae12-7c681fda2c99",
+      "filename": "8409cb32-735d-46e9-ae12-7c681fda2c99.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/8409cb32-735d-46e9-ae12-7c681fda2c99.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0034_Vienna_architecture_File_2014-12-18_Facade_details_at_Neue_Burg_Vienna_-hu-.jpeg"
+      ],
+      "content_sha256": "2a9a3d157b02edbeba1c6a5c8b70f04a6366f9e2d4bf85c4eb8f3b25b08c83fe"
+    },
+    {
+      "uid": "861503dc-92f6-4efc-9d6d-7199571d3a1a",
+      "filename": "861503dc-92f6-4efc-9d6d-7199571d3a1a.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/861503dc-92f6-4efc-9d6d-7199571d3a1a.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0015_duck_pond_File_Duck_pond_Wellington_Botanic_Garden_jpg.jpeg"
+      ],
+      "content_sha256": "ee3d996dd6911914dd914290374c406b03b922c8b4cc90b16478ad747ecdc696"
+    },
+    {
+      "uid": "86d96526-aa6b-46f1-a612-5d5fbed91d8d",
+      "filename": "86d96526-aa6b-46f1-a612-5d5fbed91d8d.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/86d96526-aa6b-46f1-a612-5d5fbed91d8d.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0078_city_skyline_dusk_File_Sydney_skyline_at_dusk_-_Dec_2008_jpg.jpeg"
+      ],
+      "content_sha256": "402458d3d9de39d6bb2396ef3739f52e6f27ca499897c02f0ebad6bcffbc11ac"
+    },
+    {
+      "uid": "8a1c4bdd-c725-4cf3-8b5f-823d4d186bdb",
+      "filename": "8a1c4bdd-c725-4cf3-8b5f-823d4d186bdb.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/8a1c4bdd-c725-4cf3-8b5f-823d4d186bdb.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0022_Sydney_Opera_House_File_MC_Sydney_Opera_House_jpg.jpeg"
+      ],
+      "content_sha256": "63471483613c6593129689362157ca85aaf188567e23aea5480477571ce9d8ea"
+    },
+    {
+      "uid": "951a3e49-10fb-4249-aa5e-fa240fa5e167",
+      "filename": "951a3e49-10fb-4249-aa5e-fa240fa5e167.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/951a3e49-10fb-4249-aa5e-fa240fa5e167.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0040_Vancouver_harbor_File_2018-08-31_01_FIREBOAT_1_FB-1_-_City_of_Vancouver_BC.jpeg"
+      ],
+      "content_sha256": "d26f4bd401cb09f10629097f3b03572cafb0a70223622a67dbb1b5943cf8544b"
+    },
+    {
+      "uid": "95aeef0f-099f-400d-b5e7-1e2cc47cf976",
+      "filename": "95aeef0f-099f-400d-b5e7-1e2cc47cf976.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/95aeef0f-099f-400d-b5e7-1e2cc47cf976.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0006_dog_park_File_Freedom_Park_Dog_Park_jpeg.jpeg"
+      ],
+      "content_sha256": "5efd2ca3f9557f2f9558536602c1bff1a089c4a47be651bad7479dad41b60d50"
+    },
+    {
+      "uid": "963befbe-51de-44ec-a50d-9c6ae678aaa2",
+      "filename": "963befbe-51de-44ec-a50d-9c6ae678aaa2.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/963befbe-51de-44ec-a50d-9c6ae678aaa2.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0026_Seoul_cityscape_File_Cityscape_of_Jung-gu_Seoul_Station_Seoullo_7017_202402.jpeg"
+      ],
+      "content_sha256": "1059219a7aca9585e79716544cb108c1d5d43c5fadd817e67ed4c546a09f2b4c"
+    },
+    {
+      "uid": "98632d20-76ac-42f0-bdd9-46c176e0c083",
+      "filename": "98632d20-76ac-42f0-bdd9-46c176e0c083.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/98632d20-76ac-42f0-bdd9-46c176e0c083.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0058_coffee_shop_window_File_Window_display_in_Coppini_coffee_shop_Ross-on-Wye_-.jpeg"
+      ],
+      "content_sha256": "342a219cfdcfe9ff5b964231b724b79628de8069120cb7201696e832ac463e69"
+    },
+    {
+      "uid": "9a68393a-0861-4a64-af9b-e0ffbcef224d",
+      "filename": "9a68393a-0861-4a64-af9b-e0ffbcef224d.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/9a68393a-0861-4a64-af9b-e0ffbcef224d.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0065_tide_pool_File_Calliarthron_tuberculosum_in_Monterey_12229_jpg.jpeg"
+      ],
+      "content_sha256": "e1785fb7817c835f7aa68f4e7c767620fc12cbcade2281c8c6649aece6c940a5"
+    },
+    {
+      "uid": "9acb0707-eb48-4792-92f9-a21213ac6170",
+      "filename": "9acb0707-eb48-4792-92f9-a21213ac6170.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/9acb0707-eb48-4792-92f9-a21213ac6170.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_indoor/0048_bus_interior_passengers_seated_File_2010_white_Coaster_interior_seats_jpg.jpeg"
+      ],
+      "content_sha256": "cb06c6efdcbb671fc18d43646fb940282b40cfdc45fdf39dd971bc15af53a88f"
+    },
+    {
+      "uid": "9b25944c-e588-4fd2-be3e-a3e46ae6e90e",
+      "filename": "9b25944c-e588-4fd2-be3e-a3e46ae6e90e.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/9b25944c-e588-4fd2-be3e-a3e46ae6e90e.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0063_construction_site_urban_File_Construction_site_at_Hugezhuang_20180728151449.jpeg"
+      ],
+      "content_sha256": "f0e8c3343f71ebc46a80af419c9d0db68b90f4c8a59f5bfca164c350fdc2fffd"
+    },
+    {
+      "uid": "9c71572e-04ca-436b-a1dd-3de4b16e954f",
+      "filename": "9c71572e-04ca-436b-a1dd-3de4b16e954f.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/9c71572e-04ca-436b-a1dd-3de4b16e954f.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0031_beach_seagulls_File_Seagulls_Wells_Beach_ME_jpg.jpeg"
+      ],
+      "content_sha256": "4605dca762467387059814a0b029cc6f56af234007a5ecd64cef5eb2f54cf55c"
+    },
+    {
+      "uid": "9cdd9eb8-78cc-4f2d-a145-d9969ddc1f91",
+      "filename": "9cdd9eb8-78cc-4f2d-a145-d9969ddc1f91.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/9cdd9eb8-78cc-4f2d-a145-d9969ddc1f91.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0003_tabby_cat_File_Tabby_cat_with_blue_eyes-3336579_jpg.jpeg"
+      ],
+      "content_sha256": "54437c3b4f86f346a603af8c42e1dac0fa405305fff7a2e51fe6d853e78a54e6"
+    },
+    {
+      "uid": "9eaebe12-5192-4710-b516-a34698c624bc",
+      "filename": "9eaebe12-5192-4710-b516-a34698c624bc.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/9eaebe12-5192-4710-b516-a34698c624bc.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0026_cherry_blossom_street_File_Cherry_blossom_farm_by_the_street_Yamagata_Japan.jpeg"
+      ],
+      "content_sha256": "bf34684c8a019853c46aee00b2c56c34866de636c5addec09a8a9114f93a1510"
+    },
+    {
+      "uid": "a01f2d3d-251b-4228-b31e-4cab2c911d82",
+      "filename": "a01f2d3d-251b-4228-b31e-4cab2c911d82.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/a01f2d3d-251b-4228-b31e-4cab2c911d82.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0050_Los_Angeles_downtown_File_Building_structures_Los_Angeles_Downtown_2013_jpg.jpeg"
+      ],
+      "content_sha256": "9f05a5f6f10ca30ede1a5f1a92d807615daa6c5dd288c9512b640f7efda0901e"
+    },
+    {
+      "uid": "a15315d2-66f1-4780-a8ef-3e1a18a7cf84",
+      "filename": "a15315d2-66f1-4780-a8ef-3e1a18a7cf84.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/a15315d2-66f1-4780-a8ef-3e1a18a7cf84.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0088_sushi_restaurant_File_Gonta_sushi_jpg.jpeg"
+      ],
+      "content_sha256": "7015088e8f0b75e772a76a99f7c587628a94d29115d1923ced8e1ab16d15ed18"
+    },
+    {
+      "uid": "a210f6ad-e5b4-4eb2-b068-c5832662de26",
+      "filename": "a210f6ad-e5b4-4eb2-b068-c5832662de26.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/a210f6ad-e5b4-4eb2-b068-c5832662de26.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0055_neon_street_Tokyo_File_2006-10-02_The_Kind_of_Street_Tokyo_is_Known_for_jpg.jpeg"
+      ],
+      "content_sha256": "aeae61715084818ee8119fafb177336a195afb0ecafd83eebd3254956cba0b1d"
+    },
+    {
+      "uid": "a37a0152-1279-4d0f-956c-4172f10e562c",
+      "filename": "a37a0152-1279-4d0f-956c-4172f10e562c.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/a37a0152-1279-4d0f-956c-4172f10e562c.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0050_parrot_pet_File_Pet_Parrot_2_jpg.jpeg"
+      ],
+      "content_sha256": "6f113630a315867adaac6cc8afce1328817e3db4d090db666cfec3a53bb7e39b"
+    },
+    {
+      "uid": "a3d64cd2-f714-4c62-9d62-ce68f4761643",
+      "filename": "a3d64cd2-f714-4c62-9d62-ce68f4761643.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/a3d64cd2-f714-4c62-9d62-ce68f4761643.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0004_tabby_cat_File_Tabby_cats_of_Ōizumi_Ryokuchi_Park_January_2019_-_8816_jpg.jpeg"
+      ],
+      "content_sha256": "15451532bab06a872bfbd068dcfc542117063a8b5a333cd8c78ec3582c12aaad"
+    },
+    {
+      "uid": "a48c34c8-efa8-4277-8b6a-028ba98584d1",
+      "filename": "a48c34c8-efa8-4277-8b6a-028ba98584d1.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/a48c34c8-efa8-4277-8b6a-028ba98584d1.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0052_Shibuya_crossing_night_File_Loud_cars_near_Shibuya_Scramble_crossing_7_jpg.jpeg"
+      ],
+      "content_sha256": "1240a7afd8fcb4746472440b424df294da7c314953317537999f8180d563a0a5"
+    },
+    {
+      "uid": "a66b17d3-ba2d-4030-968f-b0a93bf3b897",
+      "filename": "a66b17d3-ba2d-4030-968f-b0a93bf3b897.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/a66b17d3-ba2d-4030-968f-b0a93bf3b897.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0073_rice_terrace_File_Longsheng_Rice_Terraces_November_2017_021_jpg.jpeg"
+      ],
+      "content_sha256": "1cc1e8e01b37fdf8b630fb6657c97e96c2fe174a31b18c98edef2a949f4c4d4d"
+    },
+    {
+      "uid": "a783d29f-d564-4be6-9717-da0cac63a2e2",
+      "filename": "a783d29f-d564-4be6-9717-da0cac63a2e2.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/a783d29f-d564-4be6-9717-da0cac63a2e2.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0031_Prague_Old_Town_File_Czech-2013-Prague-Astronomical_clock_face_jpg.jpeg"
+      ],
+      "content_sha256": "0d6d76ed9461aa4a3b5dd9c47df0b33f1dd6af5586b4f3d45160dacbc6c8490f"
+    },
+    {
+      "uid": "a7a6b67c-ffa7-4981-8de4-3b42b0b0f78e",
+      "filename": "a7a6b67c-ffa7-4981-8de4-3b42b0b0f78e.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/a7a6b67c-ffa7-4981-8de4-3b42b0b0f78e.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0054_rabbit_pet_File_Peking_Rabbits_Pet_shop-20131231-RM-110142_jpg.jpeg"
+      ],
+      "content_sha256": "7cc99403d2a01cd5edb971e87cbbb9676dbc8621800e1518f425206704681771"
+    },
+    {
+      "uid": "a910778f-3a9d-4f54-b262-c2b963f3b2d3",
+      "filename": "a910778f-3a9d-4f54-b262-c2b963f3b2d3.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/a910778f-3a9d-4f54-b262-c2b963f3b2d3.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0086_Costa_Rica_rainforest_File_CR757_epiphytic_liverwort_Costa_Rica_JPG.jpeg"
+      ],
+      "content_sha256": "2591d7f4fe17b022c480d39b75d53dc7675d32ac8d85af7dfcec2af632d46099"
+    },
+    {
+      "uid": "a9eaa1f3-2d5e-48ce-b303-0a1de7c6a2d4",
+      "filename": "a9eaa1f3-2d5e-48ce-b303-0a1de7c6a2d4.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/a9eaa1f3-2d5e-48ce-b303-0a1de7c6a2d4.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0008_dog_park_File_Sentral_Bark_Dog_Park_-_Lindsborg_KS_jpg.jpeg"
+      ],
+      "content_sha256": "af997b2462d431f4e82381de344ac47a54c1c79e900ce9ecf20d62e52eb1a93b"
+    },
+    {
+      "uid": "aa4b2c82-a784-4d84-9832-e3680c332560",
+      "filename": "aa4b2c82-a784-4d84-9832-e3680c332560.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/aa4b2c82-a784-4d84-9832-e3680c332560.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0100_Santorini_Greece_File_07-17-2012_-_Emborio_-_Emporio_-_Santorini_-_Greece_-.jpeg"
+      ],
+      "content_sha256": "261dac1aa2696975b2b9906a570626373c6ea87929702dc6b5d44ab0b91b2e6c"
+    },
+    {
+      "uid": "aa6bebc5-f34e-4771-93c6-3722a90d6e2c",
+      "filename": "aa6bebc5-f34e-4771-93c6-3722a90d6e2c.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/aa6bebc5-f34e-4771-93c6-3722a90d6e2c.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0083_market_vegetables_File_Vegetables_at_vegetable_market_Havelock_Island_Andam.jpeg"
+      ],
+      "content_sha256": "44e05e9bc9eedf5d1b8a594f9c6115aba48b90658e0377ed4ab8facba2d8fdf4"
+    },
+    {
+      "uid": "ab634dd1-894e-426b-bf54-98412691ec33",
+      "filename": "ab634dd1-894e-426b-bf54-98412691ec33.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/ab634dd1-894e-426b-bf54-98412691ec33.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0036_Lisbon_tram_File_Carris_tram_28_Lisbon_2_jpg.jpeg"
+      ],
+      "content_sha256": "633866c340846316a488a0d86e639dfadc91ddbe7edf66478ea9c20fe9fa5506"
+    },
+    {
+      "uid": "abc36af4-cb8c-4ac7-870f-9aa69b4e1943",
+      "filename": "abc36af4-cb8c-4ac7-870f-9aa69b4e1943.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/abc36af4-cb8c-4ac7-870f-9aa69b4e1943.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0021_noodle_soup_bowl_File_Nongshim_Yukejang_Bowl_Noodle_Soup_20201111_001_jpg.jpeg"
+      ],
+      "content_sha256": "0c79e287112e3b688575bbae95c1db5c97649ea6b8479ac8bd6b998e5e4396da"
+    },
+    {
+      "uid": "abe7872f-8cd6-4fa2-93cf-cf75c35bcbe8",
+      "filename": "abe7872f-8cd6-4fa2-93cf-cf75c35bcbe8.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/abe7872f-8cd6-4fa2-93cf-cf75c35bcbe8.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0091_Scottish_Highlands_loch_File_A_small_loch_in_the_saddle_between_Beinn_an_Do.jpeg"
+      ],
+      "content_sha256": "d7d5a98e706aa64e528bd29f1ab1a4d445599af17667c0903ab01eaba379b919"
+    },
+    {
+      "uid": "ac688d2e-4f1a-4a9e-89ad-f315cdadbf4b",
+      "filename": "ac688d2e-4f1a-4a9e-89ad-f315cdadbf4b.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/ac688d2e-4f1a-4a9e-89ad-f315cdadbf4b.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0035_mountain_trail_hiking_File_Hiking_trail_at_Námafjall_Mountain_Iceland_20240.jpeg"
+      ],
+      "content_sha256": "46cb1c200b2fa485fd94f50878b74e3ffabc4b82c8a4fa5241787a6b9b3d0a12"
+    },
+    {
+      "uid": "ad442202-aec9-4f11-a403-e88340f60208",
+      "filename": "ad442202-aec9-4f11-a403-e88340f60208.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/ad442202-aec9-4f11-a403-e88340f60208.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0029_snow_suburban_road_File_Suburban_Reading_in_the_snow_-_geograph_org_uk_-_16.jpeg"
+      ],
+      "content_sha256": "bcacbe05d370b3854a021689bf59de414848293bd03dce248e92eb3a7192cb43"
+    },
+    {
+      "uid": "ad547478-65c9-4140-8b1a-0e21dfbb7798",
+      "filename": "ad547478-65c9-4140-8b1a-0e21dfbb7798.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/ad547478-65c9-4140-8b1a-0e21dfbb7798.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0052_rabbit_pet_File_Heimtier_004_2023_08_26_jpg.jpeg"
+      ],
+      "content_sha256": "8b57648cfe568030803d3f440607944760c073e4b586ef27fccb2852f3844d45"
+    },
+    {
+      "uid": "ae1fb4b3-7922-485f-b14a-973b88570d03",
+      "filename": "ae1fb4b3-7922-485f-b14a-973b88570d03.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/ae1fb4b3-7922-485f-b14a-973b88570d03.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/Reynisfjara,_Suðurland,_Islandia,_2014-08-17,_DD_167.JPG"
+      ],
+      "content_sha256": "7ff91f95a8c4275e4553c8adbf2c2de54017898e97e21e0002d282035d71387a"
+    },
+    {
+      "uid": "b045272c-6ecd-42b5-8269-51c270d5c7df",
+      "filename": "b045272c-6ecd-42b5-8269-51c270d5c7df.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/b045272c-6ecd-42b5-8269-51c270d5c7df.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0027_cherry_blossom_street_File_Three_pink_cherry_blossoms_in_Tuntorp_jpg.jpeg"
+      ],
+      "content_sha256": "f618f98e826feeba75c82cba94fdc053dec553faa19fe2eec797585b3a874ef9"
+    },
+    {
+      "uid": "b0f348e2-fbad-4b3e-bb4e-b4f7947d6b94",
+      "filename": "b0f348e2-fbad-4b3e-bb4e-b4f7947d6b94.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/b0f348e2-fbad-4b3e-bb4e-b4f7947d6b94.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_indoor/0058_food_court_eating_mall_interior_File_Budapest_Árkád_9_jpg.jpeg"
+      ],
+      "content_sha256": "7d4539dc53fa49329b79a7db26cac9e92c6ede611728d45ec9d3a1a3078fa3c5"
+    },
+    {
+      "uid": "b109e541-d1b5-4366-8776-d424fb0c23cc",
+      "filename": "b109e541-d1b5-4366-8776-d424fb0c23cc.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/b109e541-d1b5-4366-8776-d424fb0c23cc.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/filthy-dishes-after-depressive-episode-v0-s5y9w0fd42qd1.webp"
+      ],
+      "content_sha256": "cba1e8702a6f8825ccd106be9854f885109937a942e422df9fa01ad5c5654a4f"
+    },
+    {
+      "uid": "b2bd27ae-5e12-45d3-80a5-268c2766de4d",
+      "filename": "b2bd27ae-5e12-45d3-80a5-268c2766de4d.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/b2bd27ae-5e12-45d3-80a5-268c2766de4d.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0022_noodle_soup_bowl_File_Nongshim_Yukejang_Bowl_Noodle_Soup_20201111_002_jpg.jpeg"
+      ],
+      "content_sha256": "0b2f2bde6a0312314dd808ca95c9cdab43a6a4d9bf133e3689bd794d26e6b1a9"
+    },
+    {
+      "uid": "b396c865-3560-4e08-a7e8-e98f3aaca013",
+      "filename": "b396c865-3560-4e08-a7e8-e98f3aaca013.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/b396c865-3560-4e08-a7e8-e98f3aaca013.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/dirty-sink-dishes-inline-today-160502.avif"
+      ],
+      "content_sha256": "f2218338025d98c3d1f74ed4f08854ba23c2565caaaab2d684016a90e50ea534"
+    },
+    {
+      "uid": "b3db2446-312f-4e1e-8fd8-bcec54eae1e3",
+      "filename": "b3db2446-312f-4e1e-8fd8-bcec54eae1e3.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/b3db2446-312f-4e1e-8fd8-bcec54eae1e3.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0068_tide_pool_File_Vicinity_of_Pigeon_Point_Lighthouse_jpg.jpeg"
+      ],
+      "content_sha256": "74549f76b1bd0d0f7205dced25d051c02fc3433201e6565e221cd3dab7875635"
+    },
+    {
+      "uid": "b407c602-99ed-4a80-a029-d017e81c9e11",
+      "filename": "b407c602-99ed-4a80-a029-d017e81c9e11.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/b407c602-99ed-4a80-a029-d017e81c9e11.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0018_Shanghai_Bund_File_2010_Shanghai_Bund_Viewed_from_Oriental_Pearl_Tower_01_j.jpeg"
+      ],
+      "content_sha256": "21b7ca08c22f226f138492b085162c79c28d48fb2c21dcbb4eac0d02874609cc"
+    },
+    {
+      "uid": "b53ca304-a82c-4071-abca-97d6bd9537c2",
+      "filename": "b53ca304-a82c-4071-abca-97d6bd9537c2.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/b53ca304-a82c-4071-abca-97d6bd9537c2.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/PILEAPEPEROMIOIDES_Container_Container.webp"
+      ],
+      "content_sha256": "ef5a7df72ce801ac12bf81acbb9a7c509dc7faa62f7a5462216178a55b3d0565"
+    },
+    {
+      "uid": "b5bf7a09-2d04-42c1-b626-ff898abac733",
+      "filename": "b5bf7a09-2d04-42c1-b626-ff898abac733.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/b5bf7a09-2d04-42c1-b626-ff898abac733.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0064_skyline_blue_hour_File_Alfresco_dining_at_blue_hour_on_Smith_Street_Brookly.jpeg"
+      ],
+      "content_sha256": "6f3065cf9de50a923f8be617dba01bc10a43ec99375e3a9ddc3e64566a3619fa"
+    },
+    {
+      "uid": "b5ffa5e2-8f08-4562-a66a-41355da1a843",
+      "filename": "b5ffa5e2-8f08-4562-a66a-41355da1a843.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/b5ffa5e2-8f08-4562-a66a-41355da1a843.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_indoor/0060_ramen_shop_interior_counter_File_Ramen_rice_and_Cabbage_Pork_Chashu_at_Budo.jpeg"
+      ],
+      "content_sha256": "90ec498162348452aac5716f5b52827561a4f67e6e59f32fde0737413a693539"
+    },
+    {
+      "uid": "b7688782-c843-4e2a-a56a-1edaba38f1bf",
+      "filename": "b7688782-c843-4e2a-a56a-1edaba38f1bf.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/b7688782-c843-4e2a-a56a-1edaba38f1bf.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_indoor/0007_morning_coffee_kitchen_table_File_Profiteroles_-_Annie_Smithers_Bistrot_jpg.jpeg"
+      ],
+      "content_sha256": "4878c1e1bc77cc80b81839f0246ae1b54373db2203d6053906ac48e4bacf9607"
+    },
+    {
+      "uid": "bd75bffc-464f-4997-983d-121cb2d0b93c",
+      "filename": "bd75bffc-464f-4997-983d-121cb2d0b93c.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/bd75bffc-464f-4997-983d-121cb2d0b93c.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0019_street_food_night_File_Night_Street_Food_Stall_Hyderabad_jpg.jpeg"
+      ],
+      "content_sha256": "8dc5821e07fb7ef052dce8fa4c4104e502bd1c85513c95e0d074b8f056135f8a"
+    },
+    {
+      "uid": "bd87cce6-b169-47b7-93d5-ae02aa022842",
+      "filename": "bd87cce6-b169-47b7-93d5-ae02aa022842.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/bd87cce6-b169-47b7-93d5-ae02aa022842.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/WechatIMG967.jpg"
+      ],
+      "content_sha256": "df8755dbdd950c454c82e9353b2bac20bcc508012829e736f01001776cba0573"
+    },
+    {
+      "uid": "be5bfbd7-577f-4684-a5ba-0fa7dcc02047",
+      "filename": "be5bfbd7-577f-4684-a5ba-0fa7dcc02047.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/be5bfbd7-577f-4684-a5ba-0fa7dcc02047.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0001_Tokyo_skyline_File_2015-01-17_Skyline_in_Tokyo_jpg.jpeg"
+      ],
+      "content_sha256": "63ce2a73dfdc3e650638433797bd657e63150cf01b22d7b7e30144da9e0acbdd"
+    },
+    {
+      "uid": "befc472a-8c42-4f1b-96b7-b63a462d538e",
+      "filename": "befc472a-8c42-4f1b-96b7-b63a462d538e.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/befc472a-8c42-4f1b-96b7-b63a462d538e.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/sink-full-of-dishes-but-dishwasher-is-empty-v0-hshod9lj3zgg1.webp"
+      ],
+      "content_sha256": "e408934646ac1cec4307f10e2a2ff3a84dff363512908f6b091b49cc5722e3e4"
+    },
+    {
+      "uid": "bf123059-25f7-4024-9f6e-fb1c049056c7",
+      "filename": "bf123059-25f7-4024-9f6e-fb1c049056c7.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/bf123059-25f7-4024-9f6e-fb1c049056c7.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0010_squirrel_tree_File_Red_squirrel_on_tree_branch_jpg.jpeg"
+      ],
+      "content_sha256": "b4831ca94642b72ee9d5e1222cd718380e7c38de6020d7c01949d82e9723c0c5"
+    },
+    {
+      "uid": "c0c29e07-b8cc-485e-bf59-6f366eca0633",
+      "filename": "c0c29e07-b8cc-485e-bf59-6f366eca0633.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/c0c29e07-b8cc-485e-bf59-6f366eca0633.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_indoor/0078_greenhouse_interior_plants_person_File_Foliage_-_Laeken_Royal_Greenhouses_-.jpeg"
+      ],
+      "content_sha256": "5e5f108cf14177acc626600bd19a0f0e5c4407061fcf4d4733c5f8df40f0d65c"
+    },
+    {
+      "uid": "c1eb5c45-6055-4837-aba6-098d68249db5",
+      "filename": "c1eb5c45-6055-4837-aba6-098d68249db5.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/c1eb5c45-6055-4837-aba6-098d68249db5.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_indoor/0019_refrigerator_open_kitchen_File_Antique_refrigerator_-_Hemingway_House_jpg.jpeg"
+      ],
+      "content_sha256": "d4869b4c84b011b43d871fb9253e019d7ed1c2ae662db2540a694dbe1cb85286"
+    },
+    {
+      "uid": "c215baa8-a301-4b93-939c-503533deb937",
+      "filename": "c215baa8-a301-4b93-939c-503533deb937.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/c215baa8-a301-4b93-939c-503533deb937.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0083_Philippines_tropical_island_File_El_Nido_Bay_Desert_tropical_island_Coastli.jpeg"
+      ],
+      "content_sha256": "e05b575fb8d708441d82319822740cb720970202530977016bfaca698375824f"
+    },
+    {
+      "uid": "c26a969d-5334-445e-8737-0e0853bcdb8f",
+      "filename": "c26a969d-5334-445e-8737-0e0853bcdb8f.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/c26a969d-5334-445e-8737-0e0853bcdb8f.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0008_London_Thames_File_London_Borough_of_Richmond_upon_Thames_Petersham_Scenery.jpeg"
+      ],
+      "content_sha256": "e9e872f90ff3ab82f5efec717926c22c3a2c823f15f8c6dfab5409ad6f860ad0"
+    },
+    {
+      "uid": "c2d19ed6-58ee-4a9e-8874-325bb0325cec",
+      "filename": "c2d19ed6-58ee-4a9e-8874-325bb0325cec.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/c2d19ed6-58ee-4a9e-8874-325bb0325cec.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0098_horse_stable_File_Horse_stables_in_France_jpg.jpeg"
+      ],
+      "content_sha256": "bd8b68e53494d2c004ef7d1680feb4da6834f80b32786e0c8654c9aa1de8f29b"
+    },
+    {
+      "uid": "c3731753-96eb-4585-bbb8-add7e0687a2b",
+      "filename": "c3731753-96eb-4585-bbb8-add7e0687a2b.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/c3731753-96eb-4585-bbb8-add7e0687a2b.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0027_Berlin_Brandenburg_Gate_File_Berlin_Brandenburger_Tor_2014-07_CN-01_jpg.jpeg"
+      ],
+      "content_sha256": "27049be4b14cda1ad08792532a42fb767c9cff0c4f9d4efe1ba406b3864dde94"
+    },
+    {
+      "uid": "c5bb08de-37a9-44ff-98fe-3fbeac44d601",
+      "filename": "c5bb08de-37a9-44ff-98fe-3fbeac44d601.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/c5bb08de-37a9-44ff-98fe-3fbeac44d601.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0066_tide_pool_File_Rock_pool_at_Granny_s_Bay_jpg.jpeg"
+      ],
+      "content_sha256": "f3344f7baad54a6f175b8be7bdf24cbf0c1d20c6c11034cd1974d28574037c9c"
+    },
+    {
+      "uid": "c6b1cc49-feff-4417-bc00-98c753390cef",
+      "filename": "c6b1cc49-feff-4417-bc00-98c753390cef.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/c6b1cc49-feff-4417-bc00-98c753390cef.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0001_tabby_cat_File_Cat_November_2010-1a_jpg.jpeg"
+      ],
+      "content_sha256": "f09ca16736ea5e218505ccc3efeb5ff89430d72f1321ec3eab8929909fad2ec0"
+    },
+    {
+      "uid": "c8e9f0bc-5230-43ee-b5eb-78e03810e3b7",
+      "filename": "c8e9f0bc-5230-43ee-b5eb-78e03810e3b7.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/c8e9f0bc-5230-43ee-b5eb-78e03810e3b7.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0067_tide_pool_File_Tide_pool_-_Cape_Enrage_jpg.jpeg"
+      ],
+      "content_sha256": "5fdfbce0a2e792569ffc85cce97e6a46ba61d7bb8002fe317bd9e5cee736901d"
+    },
+    {
+      "uid": "ca9b1819-413f-4765-9ada-af4e1550d6c9",
+      "filename": "ca9b1819-413f-4765-9ada-af4e1550d6c9.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/ca9b1819-413f-4765-9ada-af4e1550d6c9.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0077_city_skyline_dusk_File_New-York-City-skyline-dusk-September-2014_jpg.jpeg"
+      ],
+      "content_sha256": "9fc2fc2ca998ef4d1b26fa64611fe10569330a8376eceb367f5f09a0ec75ac73"
+    },
+    {
+      "uid": "cb20073d-83d9-488a-a8a1-b6147b04d2bc",
+      "filename": "cb20073d-83d9-488a-a8a1-b6147b04d2bc.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/cb20073d-83d9-488a-a8a1-b6147b04d2bc.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0043_Rio_de_Janeiro_beach_File_016_Brazilian_Police_car_patrolling_Copacabana_be.jpeg"
+      ],
+      "content_sha256": "dc60b366d740e663d858904e14228e51bb4f3042898626a9555a28c832567992"
+    },
+    {
+      "uid": "cb7c9d29-4378-4d89-8a52-57c457a81bda",
+      "filename": "cb7c9d29-4378-4d89-8a52-57c457a81bda.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/cb7c9d29-4378-4d89-8a52-57c457a81bda.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0072_Norway_fjord_File_2016-11-13_01_Kjeungskjær_Lighthouse_Sør-Trøndelag_Norway.jpeg"
+      ],
+      "content_sha256": "9a4eb854779ef2ff4273226ca943e514f8d5f3ee413b8e79eef29ebf9bfb19cd"
+    },
+    {
+      "uid": "cbbe32f0-b4bd-4f8b-b304-01a3f02bdc26",
+      "filename": "cbbe32f0-b4bd-4f8b-b304-01a3f02bdc26.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/cbbe32f0-b4bd-4f8b-b304-01a3f02bdc26.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0024_Singapore_Marina_Bay_File_2016_Singapur_Downtown_Core_Marina_Bay_Sands_02_j.jpeg"
+      ],
+      "content_sha256": "23cd12039f25ffeee91e11848e417226f39d25fd0b2f2661a1dfb2ec78c05d31"
+    },
+    {
+      "uid": "d1c98de7-0a0b-430b-869f-bd11da6bbb5d",
+      "filename": "d1c98de7-0a0b-430b-869f-bd11da6bbb5d.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/d1c98de7-0a0b-430b-869f-bd11da6bbb5d.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0090_sushi_restaurant_File_Koi_Sushi_shop_South_Dunedin_19_Dec_2025_jpg.jpeg"
+      ],
+      "content_sha256": "d622df540d9035592322eb813aaccfbf81cecc3a870aaab65e3190c65e069679"
+    },
+    {
+      "uid": "d2c846b8-1d42-4b81-a814-72447d9d24dd",
+      "filename": "d2c846b8-1d42-4b81-a814-72447d9d24dd.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/d2c846b8-1d42-4b81-a814-72447d9d24dd.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0034_beach_seagulls_File_Tenby_Beach_Seagulls_-_geograph_org_uk_-_3901885_jpg.jpeg"
+      ],
+      "content_sha256": "e573618eaea60c7cbb0665de25143a320ad38dcd08db0c574e8113cb40fb1b0f"
+    },
+    {
+      "uid": "d3acff89-c5c1-4b56-9a72-cdda7b381e04",
+      "filename": "d3acff89-c5c1-4b56-9a72-cdda7b381e04.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/d3acff89-c5c1-4b56-9a72-cdda7b381e04.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0046_Mumbai_Marine_Drive_File_Hotel_Intercontinental_at_Marine_Drive_Mumbai_jpg.jpeg"
+      ],
+      "content_sha256": "e6e678203ec685cc511a8e3c4069a65941bc30b42486e5469f75292d546fde32"
+    },
+    {
+      "uid": "d4afbbcd-0422-40f0-a48a-718049f87889",
+      "filename": "d4afbbcd-0422-40f0-a48a-718049f87889.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/d4afbbcd-0422-40f0-a48a-718049f87889.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0005_New_York_Manhattan_File_1_New_York_Plaza_24280p_jpg.jpeg"
+      ],
+      "content_sha256": "2b56f90a067959fb66fd4489ff32adde04fb8722e05752dd91e223e9ac560f16"
+    },
+    {
+      "uid": "d5c53b16-3b34-4157-877e-6db37d7d425f",
+      "filename": "d5c53b16-3b34-4157-877e-6db37d7d425f.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/d5c53b16-3b34-4157-877e-6db37d7d425f.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0017_street_food_night_File_Copenhagen_Kødbyen_by_night_September_2022_jpg.jpeg"
+      ],
+      "content_sha256": "5d0a34a972cd166aec1dc98e097844705e3f193992fa5ba105b35178042ab5fa"
+    },
+    {
+      "uid": "d5cdc630-1172-4792-b812-02be46f6ed31",
+      "filename": "d5cdc630-1172-4792-b812-02be46f6ed31.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/d5cdc630-1172-4792-b812-02be46f6ed31.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0076_city_skyline_dusk_File_New-York-City-skyline-dusk--September-2014_jpg.jpeg"
+      ],
+      "content_sha256": "f4a152509b4d66b9378c0aa8d777b4325784237184626c7201e65d908e3cadcb"
+    },
+    {
+      "uid": "da753367-22fd-4707-9520-d4d370dc66ba",
+      "filename": "da753367-22fd-4707-9520-d4d370dc66ba.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/da753367-22fd-4707-9520-d4d370dc66ba.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0092_campfire_marshmallow_File_Banana_boat_jpg.jpeg"
+      ],
+      "content_sha256": "980082eb4855e5cf3854f71ab9adf0f9590dd5de8e40f6b1d3c8426cc6c743f4"
+    },
+    {
+      "uid": "db4a9b96-b0b4-4cab-92a0-d24277ea3497",
+      "filename": "db4a9b96-b0b4-4cab-92a0-d24277ea3497.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/db4a9b96-b0b4-4cab-92a0-d24277ea3497.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/截屏2026-05-12 20.43.45.png"
+      ],
+      "content_sha256": "ac97b969d6d7c8496948330715861af6ade212c65087dcb3edb852e4a5f02a4a"
+    },
+    {
+      "uid": "e090a7b6-1575-4f14-b79e-e5d86c682e34",
+      "filename": "e090a7b6-1575-4f14-b79e-e5d86c682e34.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/e090a7b6-1575-4f14-b79e-e5d86c682e34.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0060_bus_stop_morning_File_Bus_Stop_Saturday_Morning_-_geograph_org_uk_-_186787.jpeg"
+      ],
+      "content_sha256": "ba79fb732221d2949cf4966fa3bfe33a4f6cdce56ab7d48c6989096a09a59fc3"
+    },
+    {
+      "uid": "e2286226-5398-4a84-90d3-79a51a51ac1e",
+      "filename": "e2286226-5398-4a84-90d3-79a51a51ac1e.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/e2286226-5398-4a84-90d3-79a51a51ac1e.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_indoor/0027_cat_window_sill_indoor_File_A_framed_cat_1284804145_jpg.jpeg"
+      ],
+      "content_sha256": "73c98cbe117e914bcd6ab5c9d1872c10d600108dd9cd14abdac7699e7ddeca68"
+    },
+    {
+      "uid": "e41f8a45-7c2b-447e-89eb-0f9b2d2e2985",
+      "filename": "e41f8a45-7c2b-447e-89eb-0f9b2d2e2985.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/e41f8a45-7c2b-447e-89eb-0f9b2d2e2985.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/WechatIMG968 1.jpg"
+      ],
+      "content_sha256": "8ed3159610e7e63b5c6cae68df32e47e0e4b7f866c46f50a15e8dde80fa9a644"
+    },
+    {
+      "uid": "e53b8706-3f90-48b3-ac45-25b9e90d1582",
+      "filename": "e53b8706-3f90-48b3-ac45-25b9e90d1582.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/e53b8706-3f90-48b3-ac45-25b9e90d1582.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0039_rain_wet_pavement_File_Rain_climate_jpg.jpeg"
+      ],
+      "content_sha256": "aada19fba4af2c21edcff85e5b7d842dbed04cd87928b2d41aa473da856bcafc"
+    },
+    {
+      "uid": "e5cffdcd-f246-4734-bf9a-c11c7050569b",
+      "filename": "e5cffdcd-f246-4734-bf9a-c11c7050569b.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/e5cffdcd-f246-4734-bf9a-c11c7050569b.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0062_construction_site_urban_File_2025_-_free_image_of_a_building_worker_at_a_co.jpg"
+      ],
+      "content_sha256": "2f7ca38a0ed0b57e8b4171b9d37a62f784259eb69b4796dbdaf3aea115c27e79"
+    },
+    {
+      "uid": "e91f141c-a6e2-434c-a329-8663624ad777",
+      "filename": "e91f141c-a6e2-434c-a329-8663624ad777.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/e91f141c-a6e2-434c-a329-8663624ad777.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0043_convenience_store_neon_File_ABC_Stores_5779709870_jpg.jpeg"
+      ],
+      "content_sha256": "89af3ecd5588e91e2c498a4c5d9324a7237797b0477d4f54be2b90b611f8b139"
+    },
+    {
+      "uid": "ea0008b8-a4ae-4163-aaa8-990cc3def149",
+      "filename": "ea0008b8-a4ae-4163-aaa8-990cc3def149.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/ea0008b8-a4ae-4163-aaa8-990cc3def149.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0063_skyline_blue_hour_File_Blue_Hour_Photo_8487851684_jpg.jpeg"
+      ],
+      "content_sha256": "e01aae1e2c6eb36e0b55d1e1a69be44c75e5583402fcaca87a2e10db3d2b1563"
+    },
+    {
+      "uid": "ea127b37-fe29-41e9-83cb-b62ec4649cce",
+      "filename": "ea127b37-fe29-41e9-83cb-b62ec4649cce.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/ea127b37-fe29-41e9-83cb-b62ec4649cce.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0016_duck_pond_File_The_Duck_Pond_Hartington_Derbyshire_-_geograph_org_uk_-_1104.jpeg"
+      ],
+      "content_sha256": "e1a9d92008b690cd9a7f8a37639205d0a611cddc1312ae9fdf08558630f376cb"
+    },
+    {
+      "uid": "eb00a4b6-2989-445d-981f-2b6cd22cc8e7",
+      "filename": "eb00a4b6-2989-445d-981f-2b6cd22cc8e7.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/eb00a4b6-2989-445d-981f-2b6cd22cc8e7.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_indoor/0039_guitar_practice_bedroom_File_BrownStory6_jpg.jpeg"
+      ],
+      "content_sha256": "9e62b45635a3dc59423b5ab3fdca68983daefa538de9255978f28e5f0ae73da6"
+    },
+    {
+      "uid": "eba2d238-95fc-4c48-91e1-81cf29e37615",
+      "filename": "eba2d238-95fc-4c48-91e1-81cf29e37615.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/eba2d238-95fc-4c48-91e1-81cf29e37615.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_indoor/0077_elevator_lobby_apartment_building_File_Elevator_Doors_Foshay_Tower_9th_Stre.jpeg"
+      ],
+      "content_sha256": "6b3b05bbb9c07d902b937684ad9ed0dbae8a65c19f3449ad1ad288f6c4cfefdb"
+    },
+    {
+      "uid": "ebb9767e-29dc-4e70-8255-33031e2f429e",
+      "filename": "ebb9767e-29dc-4e70-8255-33031e2f429e.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/ebb9767e-29dc-4e70-8255-33031e2f429e.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0036_mountain_trail_hiking_File_Hiking_trail_at_Námafjall_Mountain_Iceland_20240.jpeg"
+      ],
+      "content_sha256": "7fd95d2986619d6a385139f2634425b7f1842acf302bc881fb1848c6616e481a"
+    },
+    {
+      "uid": "ebc2ca9c-81f3-4408-9928-95fcf41e234d",
+      "filename": "ebc2ca9c-81f3-4408-9928-95fcf41e234d.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/ebc2ca9c-81f3-4408-9928-95fcf41e234d.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/PILEApeperomioidesChineseMoneyplantiStock-2149047630.webp"
+      ],
+      "content_sha256": "a2a2d8e6ffa4f1272a696c27cce48b2b3fc3eff28ad15d00fbc05a6be6b30baf"
+    },
+    {
+      "uid": "ec134e69-c4dc-4318-8c23-8d71f9199293",
+      "filename": "ec134e69-c4dc-4318-8c23-8d71f9199293.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/ec134e69-c4dc-4318-8c23-8d71f9199293.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0041_rain_wet_pavement_File_Wet_Fields_and_Pavement_at_Paroi_jpg.jpeg"
+      ],
+      "content_sha256": "e573f694b6cfbc8f9e5b4c2deb41970fa4135cf376603742c32e5de5fb69c492"
+    },
+    {
+      "uid": "f0c31c44-2f64-4bb4-a6a2-8d8ab8fb7c1f",
+      "filename": "f0c31c44-2f64-4bb4-a6a2-8d8ab8fb7c1f.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/f0c31c44-2f64-4bb4-a6a2-8d8ab8fb7c1f.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_indoor/0069_indoor_swimming_pool_swimmers_File_2016_DoD_Warrior_Games_Swim_Practice_160.jpeg"
+      ],
+      "content_sha256": "2cb1566d17c18087c6ad14f44e65951ba669c85afc8e120808a2ea54bf81650a"
+    },
+    {
+      "uid": "f3391798-a728-451f-be4f-56b928fbdbf8",
+      "filename": "f3391798-a728-451f-be4f-56b928fbdbf8.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/f3391798-a728-451f-be4f-56b928fbdbf8.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0059_bus_stop_morning_File_A_chilly_wait_at_the_bus_stop_on_a_cold_February_morn.jpeg"
+      ],
+      "content_sha256": "1663ca1a322043b59919dccc7caad6311e4710d69a496e56aaa436b049d13c00"
+    },
+    {
+      "uid": "f4c8c28f-c243-464f-81f3-9aa9d59c2e58",
+      "filename": "f4c8c28f-c243-464f-81f3-9aa9d59c2e58.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/f4c8c28f-c243-464f-81f3-9aa9d59c2e58.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0011_Dubai_marina_File_DUBA2131-5_jpg.jpeg"
+      ],
+      "content_sha256": "f0826b1ce24249b300d583ac1e0dc16fde191f3bf878d4d959a5511b8493b41c"
+    },
+    {
+      "uid": "f88aa778-a9b4-40c5-b709-42e805febbfd",
+      "filename": "f88aa778-a9b4-40c5-b709-42e805febbfd.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/f88aa778-a9b4-40c5-b709-42e805febbfd.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0002_Tokyo_skyline_File_Minato_City_Tokyo_Japan_jpg.jpeg"
+      ],
+      "content_sha256": "ab5bc93535839233706ad58a72c8729cff05e6bb5005f0135a0f43659f2d64b2"
+    },
+    {
+      "uid": "f9bb9d2a-d57f-4fb8-b176-6f69d79bf638",
+      "filename": "f9bb9d2a-d57f-4fb8-b176-6f69d79bf638.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/f9bb9d2a-d57f-4fb8-b176-6f69d79bf638.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0018_street_food_night_File_Illuminated_facade_of_a_restaurant_serving_tradition.jpeg"
+      ],
+      "content_sha256": "d95e1d7847275bc474dc5d17b96867e95147b83a9bc377f6ddeaf6859533a77e"
+    },
+    {
+      "uid": "fc2a4164-6062-4a23-9918-6dae5563d0ec",
+      "filename": "fc2a4164-6062-4a23-9918-6dae5563d0ec.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/fc2a4164-6062-4a23-9918-6dae5563d0ec.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_indoor/0055_cafe_laptop_customer_interior_File_Mister_Donut_Tokyo_2016_jpg.jpeg"
+      ],
+      "content_sha256": "c9bd4977654a8c064c0adba78c87fe9d92b366966bb0c7b092e6c432bc0207de"
+    },
+    {
+      "uid": "fcdb6cde-4939-4880-a962-e259a55b5583",
+      "filename": "fcdb6cde-4939-4880-a962-e259a55b5583.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/fcdb6cde-4939-4880-a962-e259a55b5583.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch1/0009_squirrel_tree_File_Leucistic_white_squirrel_hanging_on_to_a_tree_85569_jpg.jpeg"
+      ],
+      "content_sha256": "8c88a7825a3dd9af0e8c02d2862d579dc0fae23005bf751eef0b22c2b7063653"
+    },
+    {
+      "uid": "fd8d12c6-3f8e-4b2d-b417-703a5ed84e3b",
+      "filename": "fd8d12c6-3f8e-4b2d-b417-703a5ed84e3b.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/fd8d12c6-3f8e-4b2d-b417-703a5ed84e3b.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0053_Times_Square_night_File_2_Times_Square_at_Night_in_2025_jpg.jpeg"
+      ],
+      "content_sha256": "b9db25c8ff058f6a4f9706514b18ef46aaee55b0ee45b8fd24069d6efe2a683f"
+    },
+    {
+      "uid": "fdafe5bd-fe46-42f4-9c7c-19fc2c43f36d",
+      "filename": "fdafe5bd-fe46-42f4-9c7c-19fc2c43f36d.jpg",
+      "absolute_path": "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/true_images/fdafe5bd-fe46-42f4-9c7c-19fc2c43f36d.jpg",
+      "assets_pool_tiers": [
+        "easy",
+        "medium",
+        "hard",
+        "extreme"
+      ],
+      "is_cropped_800x800": true,
+      "width": 800,
+      "height": 800,
+      "sources": [
+        "/Users/nunopesikin/WeChatProjects/miniprogram-1/assets/raw_true_candidates/commons_batch2_spread/0079_Vietnam_Halong_Bay_File_Bai_Chay_beach_Ha_Long_Vietnam_20240129_0915_3958_j.jpeg"
+      ],
+      "content_sha256": "bce71cb6e575a53f824ff1b23c6b28ce86a62c61c2d44eaf11ea526c98f3949d"
     }
-  ]
+  ],
+  "ingested_at": "2026-05-13T12:23:14"
 }
