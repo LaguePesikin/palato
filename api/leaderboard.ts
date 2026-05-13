@@ -23,7 +23,8 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     res.status(503).json({
       ok: false,
       error: 'NOT_CONFIGURED',
-      message: '服务端未配置 UPSTASH_REDIS_REST_URL / UPSTASH_REDIS_REST_TOKEN',
+      message:
+        '未连接 Redis：请在 Vercel 配置 UPSTASH_REDIS_REST_URL / UPSTASH_REDIS_REST_TOKEN（须为 https REST 地址），并确认无多余空格或错误字符。',
     })
     return
   }
@@ -36,10 +37,6 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
   const limit = Math.min(100, Math.max(1, parseInt(String(req.query.limit || '50'), 10) || 50))
 
-  const zk = zkey(difficulty)
-  /** withScores 时为 [member, score, …]；泛型须为数组类型，见 @upstash/redis ZRangeCommand */
-  const flat = await redis.zrange<(string | number)[]>(zk, 0, limit - 1, { rev: true, withScores: true })
-
   const entries: {
     rank: number
     nickName: string
@@ -48,31 +45,46 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     totalCount: number
   }[] = []
 
-  for (let i = 0; i < flat.length; i += 2) {
-    const member = flat[i]
-    const scoreStr = flat[i + 1]
-    if (member == null || scoreStr == null) continue
-    const raw = await redis.get<string>(metaKey(String(member)))
-    let nick = '玩家'
-    let correctCount = 0
-    let totalCount = 0
-    if (raw) {
-      try {
-        const m = JSON.parse(raw) as Partial<Meta>
-        if (typeof m.nickName === 'string') nick = m.nickName.slice(0, 32)
-        if (typeof m.correctCount === 'number') correctCount = m.correctCount
-        if (typeof m.totalCount === 'number') totalCount = m.totalCount
-      } catch {
-        /* ignore */
+  try {
+    const zk = zkey(difficulty)
+    /** withScores 时为 [member, score, …]；泛型须为数组类型，见 @upstash/redis ZRangeCommand */
+    const flatRaw = await redis.zrange<(string | number)[]>(zk, 0, limit - 1, { rev: true, withScores: true })
+    const flat = Array.isArray(flatRaw) ? flatRaw : []
+
+    for (let i = 0; i < flat.length; i += 2) {
+      const member = flat[i]
+      const scoreStr = flat[i + 1]
+      if (member == null || scoreStr == null) continue
+      const raw = await redis.get<string>(metaKey(String(member)))
+      let nick = '玩家'
+      let correctCount = 0
+      let totalCount = 0
+      if (raw) {
+        try {
+          const m = JSON.parse(raw) as Partial<Meta>
+          if (typeof m.nickName === 'string') nick = m.nickName.slice(0, 32)
+          if (typeof m.correctCount === 'number') correctCount = m.correctCount
+          if (typeof m.totalCount === 'number') totalCount = m.totalCount
+        } catch {
+          /* ignore */
+        }
       }
+      entries.push({
+        rank: entries.length + 1,
+        nickName: nick,
+        finalScore: Number(scoreStr),
+        correctCount,
+        totalCount,
+      })
     }
-    entries.push({
-      rank: entries.length + 1,
-      nickName: nick,
-      finalScore: Number(scoreStr),
-      correctCount,
-      totalCount,
+  } catch (e) {
+    console.error('[balatu leaderboard]', e)
+    res.status(500).json({
+      ok: false,
+      error: 'REDIS_QUERY_FAILED',
+      message: '排行榜服务暂时不可用',
     })
+    return
   }
 
   res.status(200).json({ ok: true, entries })

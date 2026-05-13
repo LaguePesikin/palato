@@ -27,7 +27,8 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     res.status(503).json({
       ok: false,
       error: 'NOT_CONFIGURED',
-      message: '服务端未配置 UPSTASH_REDIS_REST_URL / UPSTASH_REDIS_REST_TOKEN',
+      message:
+        '未连接 Redis：请在 Vercel 配置 UPSTASH_REDIS_REST_URL / UPSTASH_REDIS_REST_TOKEN（须为 https REST 地址），并确认无多余空格或错误字符。',
     })
     return
   }
@@ -76,26 +77,35 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   const zk = zkey(difficulty)
   const mk = metaKey(playerId)
 
-  const prevScoreRaw = await redis.zscore(zk, playerId)
-  const prevScore = prevScoreRaw == null ? null : Number(prevScoreRaw)
+  try {
+    const prevScoreRaw = await redis.zscore(zk, playerId)
+    const prevScore = prevScoreRaw == null ? null : Number(prevScoreRaw)
 
-  if (prevScore != null && finalScore <= prevScore) {
-    res.status(200).json({ ok: true, updated: false, bestScore: prevScore })
-    return
+    if (prevScore != null && finalScore <= prevScore) {
+      res.status(200).json({ ok: true, updated: false, bestScore: prevScore })
+      return
+    }
+
+    const meta = {
+      nickName,
+      finalScore,
+      correctCount,
+      totalCount,
+      elapsedMs,
+      difficulty,
+      updatedAt: new Date().toISOString(),
+    }
+
+    await redis.set(mk, JSON.stringify(meta))
+    await redis.zadd(zk, { score: finalScore, member: playerId })
+
+    res.status(200).json({ ok: true, updated: true, bestScore: finalScore })
+  } catch (e) {
+    console.error('[balatu submit-score]', e)
+    res.status(500).json({
+      ok: false,
+      error: 'REDIS_WRITE_FAILED',
+      message: '提交分数服务暂时不可用',
+    })
   }
-
-  const meta = {
-    nickName,
-    finalScore,
-    correctCount,
-    totalCount,
-    elapsedMs,
-    difficulty,
-    updatedAt: new Date().toISOString(),
-  }
-
-  await redis.set(mk, JSON.stringify(meta))
-  await redis.zadd(zk, { score: finalScore, member: playerId })
-
-  res.status(200).json({ ok: true, updated: true, bestScore: finalScore })
 }
