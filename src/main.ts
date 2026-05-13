@@ -34,6 +34,10 @@ const FEISHU_QR_SRC = `${import.meta.env.BASE_URL}feishu-qrcode.png`
 const FEISHU_WIKI_URL =
   'https://my.feishu.cn/wiki/MJjvwajV5idenGkixF5cZl5qnic?from=from_copylink'
 
+function buildWebShareCopy(url: string): string {
+  return `一款让你不再被AI骗到的小游戏！点击链接开玩：${url}`
+}
+
 const DIFF_LABEL: Record<GameDifficulty, string> = {
   easy: '简单',
   medium: '中等',
@@ -696,11 +700,12 @@ function renderResultView() {
 
   document.getElementById('btn-copy-site-url')!.addEventListener('click', async () => {
     const url = window.location.href
+    const text = buildWebShareCopy(url)
     try {
-      await navigator.clipboard.writeText(url)
-      alert('已复制当前网页链接')
+      await navigator.clipboard.writeText(text)
+      alert('已复制分享文案')
     } catch {
-      prompt('请手动复制链接：', url)
+      prompt('请手动复制：', text)
     }
   })
 
