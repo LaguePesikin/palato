@@ -246,6 +246,9 @@ body {
   padding-top: 1.5rem;
   border-top: 1px solid #374151;
   text-align: left;
+  max-width: 100%;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .footer-quote {
@@ -288,19 +291,18 @@ body {
 }
 
 .footer-contact-inline {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: baseline;
-  gap: 0.15rem;
+  display: block;
   margin-top: 0.85rem;
   font-size: 0.88rem;
-  line-height: 1.55;
+  line-height: 1.65;
+  color: #d1d5db;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .footer-contact-inline .footer-contact-lead {
+  display: inline;
   color: #d1d5db;
-  flex-shrink: 0;
 }
 
 .footer-contact-inline .footer-link {
@@ -308,8 +310,11 @@ body {
 }
 
 .footer-contact-inline .footer-link-btn {
+  display: inline;
+  vertical-align: baseline;
   width: auto;
-  flex-shrink: 0;
+  white-space: normal;
+  text-align: left;
 }
 
 .footer-link-btn {
