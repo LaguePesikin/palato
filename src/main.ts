@@ -115,6 +115,38 @@ function collectUniqueImageUrls(questions: Question[]): string[] {
   return [...set]
 }
 
+function sleep(ms: number): Promise<void> {
+  return new Promise((r) => setTimeout(r, ms))
+}
+
+function loadImageOnce(url: string): Promise<void> {
+  return new Promise((resolve, reject) => {
+    const im = new Image()
+    im.decoding = 'async'
+    im.onload = () => resolve()
+    im.onerror = () => reject(new Error(url))
+    im.src = url
+  })
+}
+
+const PRELOAD_MAX_ATTEMPTS = 3
+const PRELOAD_CONCURRENCY = 12
+
+async function loadImageWithRetries(baseUrl: string): Promise<void> {
+  let lastErr: unknown
+  for (let a = 0; a < PRELOAD_MAX_ATTEMPTS; a++) {
+    if (a > 0) await sleep(250 * a)
+    try {
+      await loadImageOnce(baseUrl)
+      return
+    } catch (e) {
+      lastErr = e
+      console.warn(`[preload] 第 ${a + 1}/${PRELOAD_MAX_ATTEMPTS} 次失败`, baseUrl)
+    }
+  }
+  throw lastErr
+}
+
 function preloadImages(urls: string[], onProgress: (done: number, total: number) => void): Promise<void> {
   const total = urls.length
   if (total === 0) {
@@ -128,22 +160,17 @@ function preloadImages(urls: string[], onProgress: (done: number, total: number)
     onProgress(done, total)
   }
 
-  return Promise.all(
-    urls.map(
-      (url) =>
-        new Promise<void>((resolve) => {
-          const im = new Image()
-          im.decoding = 'async'
-          const fin = () => {
-            bump()
-            resolve()
-          }
-          im.onload = fin
-          im.onerror = fin
-          im.src = url
-        })
-    )
-  ).then(() => {})
+  const queue = [...urls]
+  const workerCount = Math.min(PRELOAD_CONCURRENCY, queue.length)
+  const workers = Array.from({ length: workerCount }, async () => {
+    while (queue.length > 0) {
+      const next = queue.shift()
+      if (!next) break
+      await loadImageWithRetries(next)
+      bump()
+    }
+  })
+  return Promise.all(workers).then(() => {})
 }
 
 function teardownGame() {
@@ -550,8 +577,12 @@ function renderLoading() {
       mountPlayingUI()
       updatePlayingUI()
     })
-    .catch(() => {
-      alert('图片加载异常，请刷新重试')
+    .catch((e: unknown) => {
+      const msg = e instanceof Error && e.message ? e.message : String(e)
+      console.error('[preload] 放弃', e)
+      alert(
+        `有图片多次重试仍无法加载（多为网络波动或 COS 上缺文件）。请刷新重试；若反复出现，请在控制台查看失败 URL。\n${msg.slice(0, 200)}`
+      )
       state.phase = 'landing'
       state.questions = []
       render()
